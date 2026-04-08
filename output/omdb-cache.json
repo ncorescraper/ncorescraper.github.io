@@ -12116,5 +12116,63 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt6103712": {
+    "Title": "Australian Survivor",
+    "Year": "2016–",
+    "Rated": "N/A",
+    "Released": "21 Aug 2016",
+    "Runtime": "1 min",
+    "Genre": "Adventure, Game-Show, Reality-TV",
+    "Director": "N/A",
+    "Writer": "Charlie Parsons",
+    "Actors": "Jonathan LaPaglia, Shonee Fairfax, Locklan Gilbert",
+    "Plot": "A reality show where a group of twenty-four Australians are stranded in a remote location with little more than the clothes on their back. The winner takes home $500,000 and the title of Sole Survivor.",
+    "Language": "English",
+    "Country": "Australia",
+    "Awards": "3 wins & 11 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTg0ZTU4ZDktNzU5OS00MmRmLThmZjYtMDNhY2I4OWM1YThlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.7",
+    "imdbVotes": "1,746",
+    "imdbID": "tt6103712",
+    "Type": "series",
+    "totalSeasons": "12",
+    "Response": "True"
+  },
+  "tt32429598": {
+    "Title": "Our Welsh Chapel Dream",
+    "Year": "2024–2025",
+    "Rated": "N/A",
+    "Released": "05 May 2024",
+    "Runtime": "N/A",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Marj Hogarth, Keith Brymer Jones, Gruffudd Glyn",
+    "Plot": "The restoration of a derelict Welsh chapel is carried out by Keith Brymer Jones and his partner Marj. Their dream is to turn it into their forever home complete with a working pottery studio.",
+    "Language": "N/A",
+    "Country": "United Kingdom",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.3",
+    "imdbVotes": "87",
+    "imdbID": "tt32429598",
+    "Type": "series",
+    "totalSeasons": "N/A",
+    "Response": "True"
   }
 }
