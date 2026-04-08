@@ -12174,5 +12174,92 @@
     "Type": "series",
     "totalSeasons": "N/A",
     "Response": "True"
+  },
+  "tt0096563": {
+    "Title": "Cops",
+    "Year": "1989–2025",
+    "Rated": "TV-14",
+    "Released": "11 Mar 1989",
+    "Runtime": "1 min",
+    "Genre": "Action, Crime, Reality-TV",
+    "Director": "N/A",
+    "Writer": "John Langley, Malcolm Barbour",
+    "Actors": "Ruben Barela, Andrew Fincher, Alex Cox",
+    "Plot": "Camera crews follow police officers while they work.",
+    "Language": "English, Spanish, German, Russian",
+    "Country": "United States",
+    "Awards": "Nominated for 4 Primetime Emmys. 2 wins & 5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzg5NWQ4ODUtZTNiNS00YjAxLWIxYmYtZmI1MzAwNWI5YWYzXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.9",
+    "imdbVotes": "7,743",
+    "imdbID": "tt0096563",
+    "Type": "series",
+    "totalSeasons": "36",
+    "Response": "True"
+  },
+  "tt1588754": {
+    "Title": "RuPaul's Drag Race: Untucked!",
+    "Year": "2009–",
+    "Rated": "TV-14",
+    "Released": "02 Feb 2009",
+    "Runtime": "17S min",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "RuPaul, Michelle Visage, Santino Rice",
+    "Plot": "Get all the behind-the-scenes drama, tears and laughter of RuPaul's Drag Race (2009) as the queens anxiously await their fates backstage every week after the runway critiques.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 1 Primetime Emmy. 1 win & 16 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BY2Y2ZTBmMDYtM2MyNS00ZTlhLWI2ZWYtODExMTA4OWYzYTRlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "3,900",
+    "imdbID": "tt1588754",
+    "Type": "series",
+    "totalSeasons": "18",
+    "Response": "True"
+  },
+  "tt1353056": {
+    "Title": "RuPaul's Drag Race",
+    "Year": "2009–",
+    "Rated": "TV-14",
+    "Released": "02 Feb 2009",
+    "Runtime": "63 min",
+    "Genre": "Game-Show, Reality-TV",
+    "Director": "N/A",
+    "Writer": "RuPaul, Michelle Visage, Merle Ginsberg",
+    "Actors": "RuPaul, Michelle Visage, Ross Mathews",
+    "Plot": "RuPaul searches for America's next drag superstar.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 29 Primetime Emmys. 88 wins & 154 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzhjNDBkMDktM2IzNC00YTdhLTlkNzYtMGE5ZjNkMjYzYWIyXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "25,438",
+    "imdbID": "tt1353056",
+    "Type": "series",
+    "totalSeasons": "18",
+    "Response": "True"
   }
 }
