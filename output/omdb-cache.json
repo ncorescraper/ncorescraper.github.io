@@ -12261,5 +12261,37 @@
     "Type": "series",
     "totalSeasons": "18",
     "Response": "True"
+  },
+  "tt15692408": {
+    "Title": "Zanox",
+    "Year": "2022",
+    "Rated": "N/A",
+    "Released": "26 May 2022",
+    "Runtime": "89 min",
+    "Genre": "Comedy, Crime, Romance",
+    "Director": "Gábor Benö Baranyi",
+    "Writer": "Gábor Benö Baranyi",
+    "Actors": "Elõd Bálint, Lili Erdõs, András Hatházi",
+    "Plot": "As a result of a drug experiment, Misi will be able to travel through time, but only if he drinks from a special homemade spirit.",
+    "Language": "Hungarian, English",
+    "Country": "Hungary",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjVlZDY1ZmUtMDNkMy00YWY3LWIyZGYtMTI1NWY1M2E5OTI4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.2",
+    "imdbVotes": "1,651",
+    "imdbID": "tt15692408",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
