@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.example
+
+# Logs
+*.log
+logs/
+.pm2/
+
+# OS
+.DS_Store
+.cache/
+
+# Project files (don't commit)
+src/
+tests/
+package.json
+package-lock.json
+Dockerfile
+docker-compose.yml
+CLAUDE.md
+README.md
+dist/
+
+# But DO commit output files
+!output/
+!output/**
