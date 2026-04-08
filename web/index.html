@@ -116,7 +116,7 @@
       display: flex;
       flex-direction: row;
       height: auto;
-      min-height: 300px;
+      min-height: 280px;
     }
 
     .film-card:hover {
@@ -124,18 +124,25 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
 
-    .film-poster {
-      width: 220px;
-      min-width: 220px;
-      height: 320px;
+    .film-poster-wrapper {
+      position: relative;
+      width: 200px;
+      min-width: 200px;
+      height: 280px;
       background: #f0f0f0;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 3em;
+      vertical-align: bottom;
+      font-size: 1em;
       color: #ddd;
       overflow: hidden;
       flex-shrink: 0;
+    }
+
+    .film-poster {
+      width: 100%;
+      height: 100%;
     }
 
     .film-poster img {
@@ -144,14 +151,55 @@
       object-fit: cover;
     }
 
+    .poster-badges {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      right: 8px;
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+      pointer-events: none;
+    }
+
+    .year-badge {
+      background: white;
+      color: #333;
+      padding: 3px 6px;
+      border-radius: 3px;
+      font-size: 1em;
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .imdb-badge-small {
+      background: #f8b500;
+      color: #000;
+      padding: 3px 6px;
+      border-radius: 3px;
+      font-size: 1em;
+      font-weight: 700;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      pointer-events: auto;
+    }
+
+    .imdb-badge-small a {
+      color: #000;
+      text-decoration: none;
+      display: inline;
+    }
+
+    .imdb-badge-small a:hover {
+      text-decoration: underline;
+    }
+
     .film-info {
-      padding: 20px;
+      padding: 12px 15px;
       flex: 1;
       display: flex;
       flex-direction: column;
       background: white;
       overflow-y: auto;
-      max-height: 320px;
     }
 
     .film-title {
@@ -208,13 +256,84 @@
       width: fit-content;
     }
 
+    .film-title {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 4px;
+      line-height: 1.3;
+      display: none;
+    }
+
+    .film-meta-line {
+      font-size: 0.9em;
+      color: #999;
+      font-weight: 500;
+      display: none;
+    }
+
+    .film-title-main {
+      font-size: 1.2em;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+
+    .film-plot {
+      font-size: 0.8em;
+      color: #666;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
     .film-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
+      gap: 15px;
       margin-bottom: 15px;
       padding-bottom: 10px;
       border-bottom: 2px solid #f0f0f0;
+    }
+
+    .imdb-badge {
+      background: #f8b500;
+      color: #000;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 0.8em;
+      flex-shrink: 0;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .imdb-badge:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .imdb-badge a {
+      color: #000;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .imdb-badge a:hover {
+      text-decoration: underline;
     }
 
     .variant-count {
@@ -224,6 +343,7 @@
       font-size: 0.8em;
       color: #666;
       font-weight: 600;
+      margin-bottom: 10px;
     }
 
     .variants-list {
@@ -234,10 +354,11 @@
 
     .variant-item {
       border: 1px solid #e0e0e0;
-      border-radius: 6px;
-      padding: 10px;
+      border-radius: 5px;
+      padding: 8px;
       background: #fafafa;
       transition: all 0.3s;
+      margin-bottom: 6px;
     }
 
     .variant-item:hover {
@@ -249,35 +370,31 @@
       display: flex;
       gap: 8px;
       margin-bottom: 6px;
-      font-size: 0.8em;
+      font-size: 0.7em;
       align-items: center;
     }
 
     .variant-badge {
-      background: #667eea;
-      color: white;
-      padding: 2px 6px;
-      border-radius: 3px;
-      font-weight: 600;
+      display: none;
     }
 
     .variant-date,
     .variant-size {
       color: #999;
-      font-size: 0.75em;
+      font-size: 0.7em;
     }
 
-    .variant-title {
-      font-size: 0.9em;
-      color: #333;
-      margin-bottom: 8px;
-      line-height: 1.3;
-      word-break: break-word;
+    .variant-date::before {
+      content: '📅 ';
+    }
+
+    .variant-size::before {
+      content: '💾 ';
     }
 
     .variant-actions {
       display: flex;
-      gap: 6px;
+      gap: 5px;
     }
 
     .variant-download-btn {
@@ -296,7 +413,7 @@
       align-items: center;
       justify-content: center;
       gap: 4px;
-      font-size: 0.85em;
+      font-size: 0.8em;
     }
 
     .variant-download-btn:hover {
@@ -499,46 +616,48 @@
         min-height: auto;
       }
 
-      .film-poster {
+      .film-poster-wrapper {
         width: 100%;
         min-width: 100%;
         height: 250px;
       }
 
       .film-info {
-        max-height: none;
-        padding: 15px;
+        padding: 12px;
       }
 
       .variant-item {
-        padding: 8px;
-      }
-
-      .variant-title {
-        font-size: 0.85em;
+        padding: 6px;
+        margin-bottom: 5px;
       }
 
       .variant-download-btn {
-        font-size: 0.8em;
+        font-size: 0.75em;
         padding: 5px 6px;
       }
 
       .copy-btn {
-        padding: 5px 8px;
-        font-size: 0.9em;
+        padding: 5px 6px;
+        font-size: 0.75em;
       }
 
-      .film-header {
-        margin-bottom: 12px;
-        padding-bottom: 8px;
-      }
-
-      .imdb-rating {
-        font-size: 0.95em;
+      .film-title-main {
+        font-size: 2em;
+        margin-bottom: 6px;
       }
 
       .variant-count {
-        font-size: 0.75em;
+        font-size: 0.7em;
+      }
+
+      .poster-badges {
+        padding: 0 6px;
+      }
+
+      .year-badge,
+      .imdb-badge-small {
+        font-size: 1.2em;
+        padding: 2px 4px;
       }
     }
   </style>
@@ -631,16 +750,36 @@
 
   <script>
     const GITHUB_JSON_URL = 'https://ncorescraper.github.io/output/ncore-films.json';
+    const GITHUB_OMDB_CACHE_URL = 'https://ncorescraper.github.io/output/omdb-cache.json';
     const STORAGE_KEY = 'synologySettings';
 
     let allFilms = [];
     let groupedFilms = [];
+    let omdbCache = {};
     let currentFilter = 'all';
     let synologySettings = {
       githubToken: '',
       githubRepo: '',
       githubBranch: 'main'
     };
+
+    // Load OMDB cache from GitHub
+    async function loadOMDBCache() {
+      console.log('Loading OMDB cache...');
+      try {
+        const response = await fetch(GITHUB_OMDB_CACHE_URL);
+        if (!response.ok) {
+          console.log('OMDB cache not available yet');
+          return {};
+        }
+        const cache = await response.json();
+        console.log(`✓ OMDB cache loaded with ${Object.keys(cache).length} entries`);
+        return cache;
+      } catch (error) {
+        console.log('Could not load OMDB cache:', error.message);
+        return {};
+      }
+    }
 
     // Load Synology settings
     function loadSettings() {
@@ -765,10 +904,23 @@
       films.forEach(film => {
         const key = film.imdbLink || `unknown_${Math.random()}`;
         if (!groups[key]) {
+          // Extract IMDB ID from link
+          let imdbId = null;
+          if (film.imdbLink) {
+            const match = film.imdbLink.match(/\/title\/(tt\d+)/);
+            imdbId = match ? match[1] : null;
+          }
+
+          // Get data from OMDB cache if available
+          const omdbData = imdbId && omdbCache[imdbId] ? omdbCache[imdbId] : {};
+
           groups[key] = {
             imdbLink: film.imdbLink,
             imdbRating: film.imdbRating,
             imgSrc: film.imgSrc,
+            title: omdbData.Title || film.title || 'Unknown',
+            publish_date: omdbData.Year || film.publish_date || '?',
+            smallplot: omdbData.Plot || film.smallplot || '',
             variants: []
           };
         }
@@ -787,8 +939,12 @@
     async function loadFilms() {
       const content = document.getElementById('content');
       try {
-        content.innerHTML = '<div class="loading">Loading films...</div>';
+        content.innerHTML = '<div class="loading">Loading films and OMDB cache...</div>';
 
+        // Load OMDB cache first
+        omdbCache = await loadOMDBCache();
+
+        // Load films
         const response = await fetch(GITHUB_JSON_URL);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -862,39 +1018,50 @@
     }
 
     function createFilmCard(group) {
-      const imdb = group.imdbRating ? `${group.imdbRating}/10` : 'N/A';
       const poster = group.imgSrc || '';
       const variantCount = group.variants.length;
+
+      // Get data from group (populated from OMDB cache or JSON fallback)
+      const title = group.title || 'Unknown';
+      const publishDate = group.publish_date || '?';
+      const smallPlot = group.smallplot || '';
 
       const posterHtml = poster
         ? `<img src="${poster}" alt="Film poster" onerror="this.style.display='none'">`
         : '🎬';
 
-      const variantsHtml = group.variants.map((variant, idx) => `
-        <div class="variant-item">
-          <div class="variant-header">
-            <span class="variant-badge">#${idx + 1}</span>
-            <span class="variant-date">${variant.date}</span>
-            <span class="variant-size">${variant.size}</span>
+      const imdbLink = group.imdbLink || '#';
+      const imdbRating = group.imdbRating ? `${group.imdbRating}/10` : 'N/A';
+
+      const variantsHtml = group.variants.map((variant, idx) => {
+        const variantMeta = parseFilmMetadata(variant);
+        return `
+          <div class="variant-item">
+            <div class="variant-actions">
+              <button class="variant-download-btn" data-link="${variant.downloadLink}" data-name="${escapeHtml(variant.name)}">
+                ⬇️ ${variantMeta.resolution} Download - ${variant.size}
+              </button>
+            </div>
           </div>
-          <div class="variant-title">${escapeHtml(variant.name)}</div>
-          <div class="variant-actions">
-            <button class="variant-download-btn" data-link="${variant.downloadLink}" data-name="${escapeHtml(variant.name)}">
-              ⬇️ Download
-            </button>
-            <button class="copy-btn" data-link="${escapeHtml(variant.downloadLink)}">📋</button>
-          </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
 
       return `
         <div class="film-card">
-          <div class="film-poster">${posterHtml}</div>
-          <div class="film-info">
-            <div class="film-header">
-              <div class="imdb-rating">${imdb}</div>
-              <div class="variant-count">${variantCount} version${variantCount !== 1 ? 's' : ''}</div>
+          <div class="film-poster-wrapper">
+            <div class="film-poster">${posterHtml}</div>
+            <div class="poster-badges">
+              <div class="year-badge">${publishDate}</div>
+              <div class="imdb-badge-small">
+                <a href="${imdbLink}" target="_blank" rel="noopener noreferrer" title="View on IMDb">
+                  ⭐ ${imdbRating}
+                </a>
+              </div>
             </div>
+          </div>
+          <div class="film-info">
+            <div class="film-title-main">${escapeHtml(title)}</div>
+            ${smallPlot ? `<div class="film-plot">${escapeHtml(smallPlot)}</div>` : ''}
             <div class="variants-list">
               ${variantsHtml}
             </div>
@@ -907,6 +1074,33 @@
       const div = document.createElement('div');
       div.textContent = text;
       return div.innerHTML;
+    }
+
+    function parseFilmMetadata(variant) {
+      // Extract resolution from filename
+      const fullName = variant.name || '';
+      const parts = fullName.split('.');
+
+      let resolution = '';
+      for (let i = 0; i < parts.length; i++) {
+        if (/^(2160p|1080p|1080i|720p|BD25)$/i.test(parts[i])) {
+          resolution = parts[i].toLowerCase();
+          break;
+        }
+      }
+
+      // Map resolution to readable format
+      const resolutionMap = {
+        '2160p': 'UHD',
+        '1080p': 'Full-HD',
+        '1080i': 'Full-HD',
+        '720p': 'HD',
+        'bd25': 'Blu-ray'
+      };
+
+      return {
+        resolution: resolutionMap[resolution] || resolution || '?'
+      };
     }
 
     function showToast(message, type = 'success', duration = 4000) {
