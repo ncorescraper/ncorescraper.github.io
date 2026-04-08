@@ -898,6 +898,46 @@
       return await pushTorrentLinkToGithub(torrentUrl, filmName);
     }
 
+    function parseFilmName(fullName) {
+      // Extract resolution from the end
+      let resolution = '';
+      let title = fullName;
+      let year = '';
+
+      // Check for resolution patterns at the end
+      const resolutionMatch = fullName.match(/(2160p|1080i|1080p|720p|BD25|BD50)\s*$/i);
+      if (resolutionMatch) {
+        resolution = resolutionMatch[1].toLowerCase();
+        title = fullName.replace(new RegExp(resolutionMatch[1] + '\\s*$', 'i'), '').trim();
+      }
+
+      // Check for year (4 digits) and extract title before it
+      const yearMatch = title.match(/^(.+?)\s*\.?(\d{4})\b/);
+      if (yearMatch) {
+        year = yearMatch[2];
+        title = yearMatch[1];
+      }
+
+      // Replace dots with spaces in title
+      title = title.replace(/\./g, ' ');
+
+      // Map resolution to readable format
+      const resolutionMap = {
+        '2160p': 'UHD',
+        '1080p': 'Full-HD',
+        '1080i': 'Full-HD',
+        '720p': 'HD',
+        'bd25': 'Blu-ray',
+        'bd50': 'Blu-ray'
+      };
+
+      return {
+        title: title || fullName,
+        year: year || '',
+        resolution: resolutionMap[resolution] || resolution || ''
+      };
+    }
+
     function groupFilmsByImdb(films) {
       const groups = {};
 
@@ -913,13 +953,13 @@
 
           // Get data from OMDB cache if available
           const omdbData = imdbId && omdbCache[imdbId] ? omdbCache[imdbId] : {};
-
+          console.log(omdbData);
           groups[key] = {
             imdbLink: film.imdbLink,
             imdbRating: film.imdbRating,
             imgSrc: film.imgSrc,
-            title: omdbData.Title || film.title || 'Unknown',
-            publish_date: omdbData.Year || film.publish_date || '?',
+            title: omdbData.Title || parseFilmName(film.name).title || 'Unknown',
+            publish_date: omdbData.Year || film.publish_date || '',
             smallplot: omdbData.Plot || film.smallplot || '',
             variants: []
           };
@@ -1083,10 +1123,16 @@
 
       let resolution = '';
       for (let i = 0; i < parts.length; i++) {
-        if (/^(2160p|1080p|1080i|720p|BD25)$/i.test(parts[i])) {
+        if (/^(2160p|1080p|1080i|720p|BD25|BD50)$/i.test(parts[i])) {
           resolution = parts[i].toLowerCase();
           break;
         }
+      }
+
+      // Check for resolution patterns at the end
+      const resolutionMatch = fullName.match(/(2160p|1080i|1080p|720p|BD25|BD50)\s*$/i);
+      if (resolutionMatch) {
+        resolution = resolutionMatch[1].toLowerCase();
       }
 
       // Map resolution to readable format
@@ -1095,11 +1141,12 @@
         '1080p': 'Full-HD',
         '1080i': 'Full-HD',
         '720p': 'HD',
-        'bd25': 'Blu-ray'
+        'bd25': 'Blu-ray',
+        'bd50': 'Blu-ray'
       };
 
       return {
-        resolution: resolutionMap[resolution] || resolution || '?'
+        resolution: resolutionMap[resolution] || resolution || ''
       };
     }
 
