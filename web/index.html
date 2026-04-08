@@ -380,6 +380,103 @@
       opacity: 0.8;
     }
 
+    .toast-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
+      pointer-events: none;
+    }
+
+    .toast {
+      background: white;
+      padding: 16px 24px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 300px;
+      pointer-events: auto;
+      animation: slideInRight 0.3s ease-out forwards;
+    }
+
+    .toast.success {
+      border-left: 4px solid #4CAF50;
+    }
+
+    .toast.error {
+      border-left: 4px solid #ff6b6b;
+    }
+
+    .toast.info {
+      border-left: 4px solid #667eea;
+    }
+
+    .toast-icon {
+      font-size: 1.5em;
+      flex-shrink: 0;
+    }
+
+    .toast-message {
+      color: #333;
+      font-size: 0.95em;
+      flex: 1;
+    }
+
+    .toast-close {
+      background: none;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: #999;
+      flex-shrink: 0;
+      padding: 0;
+    }
+
+    .toast-close:hover {
+      color: #333;
+    }
+
+    @keyframes slideInRight {
+      from {
+        transform: translateX(400px);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideOutRight {
+      from {
+        transform: translateX(0);
+        opacity: 1;
+      }
+      to {
+        transform: translateX(400px);
+        opacity: 0;
+      }
+    }
+
+    .toast.hiding {
+      animation: slideOutRight 0.3s ease-in forwards;
+    }
+
+    @media (max-width: 768px) {
+      .toast {
+        min-width: auto;
+        width: calc(100vw - 40px);
+      }
+
+      .toast-container {
+        left: 20px;
+        right: 20px;
+      }
+    }
+
     @media (max-width: 768px) {
       header h1 {
         font-size: 1.8em;
@@ -529,6 +626,9 @@
     </div>
   </div>
 
+  <!-- Toast notifications -->
+  <div class="toast-container" id="toastContainer"></div>
+
   <script>
     const GITHUB_JSON_URL = 'https://ncorescraper.github.io/output/ncore-films.json';
     const STORAGE_KEY = 'synologySettings';
@@ -575,73 +675,88 @@
       }, 3000);
     }
 
-    async function pushTorrentToGithub(torrentUrl, filmName) {
+    async function pushTorrentLinkToGithub(torrentUrl, filmName) {
       if (!synologySettings.githubToken || !synologySettings.githubRepo) {
-        alert('❌ Please configure GitHub settings first (⚙️ button)');
+        showToast('Please configure GitHub settings first (⚙️)', 'error');
         document.getElementById('settingsBtn').click();
         return false;
       }
 
       try {
-        // Download the torrent file
-        const response = await fetch(torrentUrl);
-        const blob = await response.blob();
-        const arrayBuffer = await blob.arrayBuffer();
-        const base64 = btoa(String.fromCharCode(...new Uint8Array(arrayBuffer)));
+        console.log('Step 1: Pushing torrent link to GitHub');
+        console.log('  URL:', torrentUrl);
+        console.log('  Name:', filmName);
+
+        // Create a JSON entry with the torrent URL
+        const timestamp = new Date().toISOString();
+        const torrentEntry = {
+          title: filmName,
+          url: torrentUrl,
+          addedAt: timestamp,
+          status: 'pending'
+        };
 
         // Sanitize filename
-        const filename = filmName.replace(/[^a-z0-9]/gi, '_').substring(0, 50) + '.torrent';
+        const sanitizedName = filmName.replace(/[^a-z0-9]/gi, '_').substring(0, 40);
+        const filename = `${sanitizedName}_${Date.now()}.json`;
         const filepath = `torrents/${filename}`;
 
-        // Push to GitHub
-        const [owner, repo] = synologySettings.githubRepo.split('/');
+        console.log('Step 2: Creating JSON entry:', filename);
+
+        // Validate repo format
+        const parts = synologySettings.githubRepo.split('/');
+        if (parts.length !== 2) {
+          throw new Error('Repo format invalid. Use: owner/repo');
+        }
+        const [owner, repo] = parts;
         const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${filepath}`;
 
-        // Check if file exists
-        let sha = null;
-        try {
-          const existsResponse = await fetch(apiUrl, {
-            headers: { Authorization: `token ${synologySettings.githubToken}` }
-          });
-          if (existsResponse.ok) {
-            const existsData = await existsResponse.json();
-            sha = existsData.sha;
-          }
-        } catch (e) {
-          // File doesn't exist yet, that's fine
-        }
+        console.log('Step 3: GitHub API URL:', apiUrl);
 
-        // Create/update file
+        // Create file with the torrent URL
+        console.log('Step 4: Uploading to GitHub...');
         const putResponse = await fetch(apiUrl, {
           method: 'PUT',
           headers: {
             Authorization: `token ${synologySettings.githubToken}`,
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            Accept: 'application/vnd.github.v3+json'
           },
           body: JSON.stringify({
-            message: `Add torrent: ${filmName}`,
-            content: base64,
-            branch: synologySettings.githubBranch,
-            ...(sha ? { sha } : {})
+            message: `Queue torrent: ${filmName} [${timestamp}]`,
+            content: btoa(JSON.stringify(torrentEntry, null, 2)),
+            branch: synologySettings.githubBranch
           })
         });
 
+        console.log('Step 5: GitHub response status:', putResponse.status);
+        const responseData = await putResponse.json();
+        console.log('Step 6: Response data:', responseData);
+
         if (putResponse.ok) {
-          alert(`✓ Pushed to GitHub!\n\nFile: ${filename}\n\nSynology will pick it up in the next sync.`);
+          showToast(`✓ Queued for download (will sync in ~10 minutes)`, 'success');
           return true;
         } else {
-          const error = await putResponse.json();
-          throw new Error(error.message || 'Failed to push to GitHub');
+          const errorMsg = responseData.message || JSON.stringify(responseData);
+          throw new Error(errorMsg);
         }
       } catch (error) {
         console.error('GitHub push error:', error);
-        alert(`❌ Error: ${error.message}\n\nMake sure:\n- GitHub token is valid\n- Repo format is owner/repo\n- You have push permissions`);
+
+        let errorDetails = error.message;
+        if (error.message.includes('Unauthorized')) {
+          errorDetails = 'Invalid GitHub token';
+        } else if (error.message.includes('Not Found')) {
+          errorDetails = 'Repository not found';
+        }
+
+        showToast(`Error: ${errorDetails}`, 'error', 5000);
         return false;
       }
     }
 
     async function addToSynology(torrentUrl, filmName) {
-      return await pushTorrentToGithub(torrentUrl, filmName);
+      return await pushTorrentLinkToGithub(torrentUrl, filmName);
     }
 
     function groupFilmsByImdb(films) {
@@ -792,6 +907,41 @@
       const div = document.createElement('div');
       div.textContent = text;
       return div.innerHTML;
+    }
+
+    function showToast(message, type = 'success', duration = 4000) {
+      const container = document.getElementById('toastContainer');
+      const toast = document.createElement('div');
+      toast.className = `toast ${type}`;
+
+      const icons = {
+        success: '✓',
+        error: '✕',
+        info: 'ℹ'
+      };
+
+      toast.innerHTML = `
+        <span class="toast-icon">${icons[type] || icons.info}</span>
+        <span class="toast-message">${message}</span>
+        <button class="toast-close">×</button>
+      `;
+
+      container.appendChild(toast);
+
+      const closeBtn = toast.querySelector('.toast-close');
+      closeBtn.addEventListener('click', () => {
+        toast.classList.add('hiding');
+        setTimeout(() => toast.remove(), 300);
+      });
+
+      if (duration > 0) {
+        setTimeout(() => {
+          if (toast.parentElement) {
+            toast.classList.add('hiding');
+            setTimeout(() => toast.remove(), 300);
+          }
+        }, duration);
+      }
     }
 
     // Settings modal management
