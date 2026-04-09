@@ -392,6 +392,14 @@
       content: '💾 ';
     }
 
+    .variant-name {
+      font-size: 0.65em;
+      color: #aaa;
+      margin-bottom: 5px;
+      word-break: break-all;
+      line-height: 1.3;
+    }
+
     .variant-actions {
       display: flex;
       gap: 5px;
@@ -675,8 +683,10 @@
       </div>
       <div class="filter-group">
         <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="hun">Hungarian</button>
-        <button class="filter-btn" data-filter="en">English</button>
+        <button class="filter-btn" data-filter="hun-film">HUN Films</button>
+        <button class="filter-btn" data-filter="en-film">EN Films</button>
+        <button class="filter-btn" data-filter="hun-series">HUN Series</button>
+        <button class="filter-btn" data-filter="en-series">EN Series</button>
       </div>
       <button id="settingsBtn" style="padding: 10px 15px; background: #f0f0f0; border: 2px solid #e0e0e0; border-radius: 5px; cursor: pointer; font-weight: 600;">⚙️ Settings</button>
       <div class="stats">
@@ -749,8 +759,14 @@
   <div class="toast-container" id="toastContainer"></div>
 
   <script>
-    const GITHUB_JSON_URL = 'https://ncorescraper.github.io/output/ncore-films.json';
-    const GITHUB_OMDB_CACHE_URL = 'https://ncorescraper.github.io/output/omdb-cache.json';
+    const GITHUB_BASE_URL = 'https://ncorescraper.github.io/output';
+    const GITHUB_JSON_URLS = [
+      { url: `${GITHUB_BASE_URL}/ncore-films.json`,     label: 'hun-film' },
+      { url: `${GITHUB_BASE_URL}/ncore-films-en.json`,  label: 'en-film' },
+      { url: `${GITHUB_BASE_URL}/ncore-series.json`,    label: 'hun-series' },
+      { url: `${GITHUB_BASE_URL}/ncore-series-en.json`, label: 'en-series' }
+    ];
+    const GITHUB_OMDB_CACHE_URL = `${GITHUB_BASE_URL}/omdb-cache.json`;
     const STORAGE_KEY = 'synologySettings';
 
     let allFilms = [];
@@ -942,24 +958,30 @@
       const groups = {};
 
       films.forEach(film => {
-        const key = film.imdbLink || `unknown_${Math.random()}`;
+        const label = film._label || '';
+        // Include label in key so HUN and EN entries are never merged
+        const key = `${label}::${film.imdbLink || `unknown_${Math.random()}`}`;
+
         if (!groups[key]) {
-          // Extract IMDB ID from link
           let imdbId = null;
           if (film.imdbLink) {
             const match = film.imdbLink.match(/\/title\/(tt\d+)/);
             imdbId = match ? match[1] : null;
           }
 
-          // Get data from OMDB cache if available
           const omdbData = imdbId && omdbCache[imdbId] ? omdbCache[imdbId] : {};
-          console.log(omdbData);
+          const isSeries = label.includes('series');
+          const parsed = isSeries
+            ? parseSeriesName(film.name)
+            : parseFilmName(film.name);
+
           groups[key] = {
             imdbLink: film.imdbLink,
             imdbRating: film.imdbRating,
             imgSrc: film.imgSrc,
-            title: omdbData.Title || parseFilmName(film.name).title || 'Unknown',
-            publish_date: omdbData.Year || film.publish_date || '',
+            label,
+            title: omdbData.Title || parsed.title || 'Unknown',
+            publish_date: omdbData.Year || film.publish_date || parsed.year || '',
             smallplot: omdbData.Plot || film.smallplot || '',
             variants: []
           };
@@ -969,7 +991,8 @@
           date: film.date,
           size: film.size,
           downloadLink: film.downloadLink,
-          id: film.id
+          id: film.id,
+          label
         });
       });
 
@@ -984,11 +1007,14 @@
         // Load OMDB cache first
         omdbCache = await loadOMDBCache();
 
-        // Load films
-        const response = await fetch(GITHUB_JSON_URL);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        // Load all 4 JSON files in parallel
+        const results = await Promise.allSettled(
+          GITHUB_JSON_URLS.map(({ url, label }) =>
+            fetch(url).then(r => r.ok ? r.json() : []).then(films => films.map(f => ({ ...f, _label: label })))
+          )
+        );
 
-        allFilms = await response.json();
+        allFilms = results.flatMap(r => r.status === 'fulfilled' ? r.value : []);
         groupedFilms = groupFilmsByImdb(allFilms);
         document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
 
@@ -1008,19 +1034,7 @@
       let filtered = groupedFilms;
 
       if (currentFilter !== 'all') {
-        filtered = filtered.filter(group => {
-          // Check if any variant matches the filter
-          const hasHun = group.variants.some(v =>
-            v.name?.toLowerCase().includes('hun') || v.name?.toLowerCase().includes('magyar')
-          );
-          const hasEn = group.variants.some(v =>
-            !v.name?.toLowerCase().includes('hun') && !v.name?.toLowerCase().includes('magyar')
-          );
-
-          if (currentFilter === 'hun') return hasHun;
-          if (currentFilter === 'en') return hasEn;
-          return true;
-        });
+        filtered = filtered.filter(group => group.label === currentFilter);
       }
 
       const searchTerm = document.getElementById('searchInput').value.toLowerCase();
@@ -1075,16 +1089,28 @@
 
       const variantsHtml = group.variants.map((variant, idx) => {
         const variantMeta = parseFilmMetadata(variant);
+        const btnLabel = variantMeta.seasonLabel
+          ? `${variantMeta.resolution} · ${variantMeta.seasonLabel}`
+          : variantMeta.resolution;
         return `
           <div class="variant-item">
+            <div class="variant-name">${escapeHtml(variant.name)}</div>
             <div class="variant-actions">
               <button class="variant-download-btn" data-link="${variant.downloadLink}" data-name="${escapeHtml(variant.name)}">
-                ⬇️ ${variantMeta.resolution} Download - ${variant.size}
+                ⬇️ ${btnLabel} Download - ${variant.size}
               </button>
             </div>
           </div>
         `;
       }).join('');
+
+      const labelMap = {
+        'hun-film':   { text: 'HUN Film',   color: '#4CAF50' },
+        'en-film':    { text: 'EN Film',    color: '#2196F3' },
+        'hun-series': { text: 'HUN Series', color: '#FF9800' },
+        'en-series':  { text: 'EN Series',  color: '#9C27B0' }
+      };
+      const labelInfo = labelMap[group.label] || { text: group.label, color: '#999' };
 
       return `
         <div class="film-card">
@@ -1100,7 +1126,10 @@
             </div>
           </div>
           <div class="film-info">
-            <div class="film-title-main">${escapeHtml(title)}</div>
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+              <div class="film-title-main" style="margin-bottom:0;">${escapeHtml(title)}</div>
+              <span style="background:${labelInfo.color}; color:white; font-size:0.65em; font-weight:700; padding:2px 7px; border-radius:20px; white-space:nowrap; flex-shrink:0;">${labelInfo.text}</span>
+            </div>
             ${smallPlot ? `<div class="film-plot">${escapeHtml(smallPlot)}</div>` : ''}
             <div class="variants-list">
               ${variantsHtml}
@@ -1116,8 +1145,78 @@
       return div.innerHTML;
     }
 
+    function parseSeriesName(fullName) {
+      let title = fullName;
+      let year = '';
+      let season = '';
+      let episode = '';
+      let resolution = '';
+
+      const resolutionMatch = title.match(/(2160p|1080i|1080p|720p|BD25|BD50)/i);
+      if (resolutionMatch) {
+        resolution = resolutionMatch[1].toLowerCase();
+      }
+
+      const seasonEpisodeMatch = title.match(/S(\d{1,2})E(\d{1,2})/i);
+      const seasonOnlyMatch = title.match(/S(\d{1,2})(?!E)/i);
+
+      if (seasonEpisodeMatch) {
+        season = parseInt(seasonEpisodeMatch[1], 10);
+        episode = parseInt(seasonEpisodeMatch[2], 10);
+      } else if (seasonOnlyMatch) {
+        season = parseInt(seasonOnlyMatch[1], 10);
+      }
+
+      const yearMatch = title.match(/\b((?:19|20)\d{2})\b/);
+      if (yearMatch) {
+        year = yearMatch[1];
+      }
+
+      const seasonMarker = title.match(/[\s.]S\d{1,2}(E\d{1,2})?[\s.]/i);
+      const yearMarkerIndex = year ? title.indexOf(year) : -1;
+      const seasonMarkerIndex = seasonMarker ? title.indexOf(seasonMarker[0]) : -1;
+
+      let cutIndex = title.length;
+      if (yearMarkerIndex > -1 && seasonMarkerIndex > -1) {
+        cutIndex = Math.min(yearMarkerIndex, seasonMarkerIndex);
+      } else if (yearMarkerIndex > -1) {
+        cutIndex = yearMarkerIndex;
+      } else if (seasonMarkerIndex > -1) {
+        cutIndex = seasonMarkerIndex;
+      }
+
+      title = title.substring(0, cutIndex).replace(/\./g, ' ').trim();
+
+      const resolutionMap = {
+        '2160p': 'UHD', '1080p': 'Full-HD', '1080i': 'Full-HD',
+        '720p': 'HD', 'bd25': 'Blu-ray', 'bd50': 'Blu-ray'
+      };
+
+      let seasonLabel = '';
+      if (season !== '' && episode !== '') {
+        seasonLabel = `S${String(season).padStart(2,'0')} E${String(episode).padStart(2,'0')}`;
+      } else if (season !== '') {
+        seasonLabel = `S${String(season).padStart(2,'0')} (full season)`;
+      }
+
+      return {
+        title: title || fullName,
+        year: year || '',
+        season,
+        episode,
+        seasonLabel,
+        resolution: resolutionMap[resolution] || resolution || '?'
+      };
+    }
+
     function parseFilmMetadata(variant) {
-      // Extract resolution from filename
+      const isSeries = variant.label && variant.label.includes('series');
+      if (isSeries) {
+        const parsed = parseSeriesName(variant.name || '');
+        return { resolution: parsed.resolution, seasonLabel: parsed.seasonLabel };
+      }
+
+      // Film: extract resolution from filename
       const fullName = variant.name || '';
       const parts = fullName.split('.');
 
@@ -1129,7 +1228,6 @@
         }
       }
 
-      // Check for resolution patterns at the end
       const resolutionMatch = fullName.match(/(2160p|1080i|1080p|720p|BD25|BD50)\s*$/i);
       if (resolutionMatch) {
         resolution = resolutionMatch[1].toLowerCase();
