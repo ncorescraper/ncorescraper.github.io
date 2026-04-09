@@ -12692,5 +12692,116 @@
     "Type": "series",
     "totalSeasons": "7",
     "Response": "True"
+  },
+  "tt15054962": {
+    "Title": "Heartbreak High",
+    "Year": "2022–2025",
+    "Rated": "TV-MA",
+    "Released": "14 Sep 2022",
+    "Runtime": "1 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "N/A",
+    "Writer": "Hannah Carroll Chapman, Ben Gannon, Michael Jenkins",
+    "Actors": "Ayesha Madon, James Majoos, Chloe Hayden",
+    "Plot": "A fresh look at Hartley High over 20 years on. With her new friends - outsiders Quinni and Darren - Amerie must repair her reputation, while navigating love, sex, and heartbreak.",
+    "Language": "English",
+    "Country": "Australia",
+    "Awards": "13 wins & 26 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGNmMDBlNjEtZDYyMC00MWE2LTliOTEtMThiN2UzOWE2YjBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "15,500",
+    "imdbID": "tt15054962",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "tt35449383": {
+    "Title": "Motorvalley",
+    "Year": "2025–",
+    "Rated": "TV-MA",
+    "Released": "10 Feb 2026",
+    "Runtime": "N/A",
+    "Genre": "Drama, Sport",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Caterina Forza, Giulia Michelini, Luca Argentero",
+    "Plot": "Three broken souls - Arturo, Elena, and Blu - unite through their passion for racing. Elena must reclaim her family's racing team, recruiting ex-champion Arturo and speed-loving Blu as they compete in Italy's GT Championship.",
+    "Language": "Italian",
+    "Country": "Italy",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDRmZjA5YTItMWI3OC00ZjE1LWFkY2YtZWNlZmQ2NDI3MWE1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.6",
+    "imdbVotes": "377",
+    "imdbID": "tt35449383",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
+  },
+  "tt1442550": {
+    "Title": "Shark Tank",
+    "Year": "2009–",
+    "Rated": "TV-PG",
+    "Released": "08 Aug 2009",
+    "Runtime": "1 min",
+    "Genre": "Family, Game-Show, Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Kevin O'Leary, Phil Crowley, Mark Cuban",
+    "Plot": "Ambitious entrepreneurs present their breakthrough business concepts.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 5 Primetime Emmys. 12 wins & 58 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYzJlNmFhMmEtZjY3ZC00MjlmLWEwM2QtYzk4OTM3MjFhZDJiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.6",
+    "imdbVotes": "11,537",
+    "imdbID": "tt1442550",
+    "Type": "series",
+    "totalSeasons": "17",
+    "Response": "True"
+  },
+  "tt38887884": {
+    "Title": "The Greatest Average American",
+    "Year": "2026–",
+    "Rated": "N/A",
+    "Released": "25 Feb 2026",
+    "Runtime": "N/A",
+    "Genre": "Game-Show",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Nate Bargatze",
+    "Plot": "Game show contestants compete to prove they're the most average American through challenges about typical US life and thinking. Winner gets crowned and can win $67,920 - the average US salary.",
+    "Language": "N/A",
+    "Country": "N/A",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt38887884",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
