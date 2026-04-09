@@ -12293,5 +12293,144 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt13846414": {
+    "Title": "Fabian: Going to the Dogs",
+    "Year": "2021",
+    "Rated": "Unrated",
+    "Released": "05 Aug 2021",
+    "Runtime": "176 min",
+    "Genre": "Drama, Romance",
+    "Director": "Dominik Graf",
+    "Writer": "Erich Kästner, Constantin Lieb, Dominik Graf",
+    "Actors": "Tom Schilling, Albrecht Schuch, Saskia Rosendahl",
+    "Plot": "1930s Berlin. Dr. Jakob Fabian, who works by day in advertising for a cigarette company and by night wanders the streets of the city, falls in love with an actress. As her career begins to blossom, prospects for his future begin t...",
+    "Language": "German",
+    "Country": "Germany",
+    "Awards": "10 wins & 19 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzA3OWE3OTAtMjdlMS00MjJiLWIwYjktYzQ5NThhMjllZDlmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "93%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "68/100"
+      }
+    ],
+    "Metascore": "68",
+    "imdbRating": "7.1",
+    "imdbVotes": "2,650",
+    "imdbID": "tt13846414",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$24,971",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt35521922": {
+    "Title": "Good Boy",
+    "Year": "2025",
+    "Rated": "PG-13",
+    "Released": "03 Oct 2025",
+    "Runtime": "72 min",
+    "Genre": "Horror, Thriller",
+    "Director": "Ben Leonberg",
+    "Writer": "Alex Cannon, Ben Leonberg",
+    "Actors": "Indy, Shane Jensen, Arielle Friedman",
+    "Plot": "A loyal dog moves to a rural family home with his owner, only to discover supernatural forces lurking in the shadows. As dark entities threaten his human companion, the brave pup must fight to protect the one he loves most.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "13 wins & 12 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODJhM2JhYjktN2JlMC00YzVjLWI3NjctMTgzYjhhZDk3ZjU2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "73/100"
+      }
+    ],
+    "Metascore": "73",
+    "imdbRating": "6.1",
+    "imdbVotes": "27,499",
+    "imdbID": "tt35521922",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$6,624,062",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt33298403": {
+    "Title": "The Divine Sarah Bernhardt",
+    "Year": "2024",
+    "Rated": "N/A",
+    "Released": "18 Dec 2024",
+    "Runtime": "98 min",
+    "Genre": "Biography",
+    "Director": "Guillaume Nicloux",
+    "Writer": "Nathalie Leuthreau",
+    "Actors": "Sandrine Kiberlain, Laurent Lafitte, Amira Casar",
+    "Plot": "Sarah Bernhardt, dubbed \"La Divine,\" became the first global celebrity. The actress broke social conventions through her bold character and dramatic performances.",
+    "Language": "French",
+    "Country": "France, Belgium",
+    "Awards": "2 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZGIyYThlZDItNTdjNC00MGI0LThkYjAtNTgxNWIxMzNiNTc1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.4",
+    "imdbVotes": "341",
+    "imdbID": "tt33298403",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt35010081": {
+    "Title": "Der Held vom Bahnhof Friedrichstraße",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "11 Dec 2025",
+    "Runtime": "N/A",
+    "Genre": "Drama",
+    "Director": "Wolfgang Becker, Achim von Borries",
+    "Writer": "Wolfgang Becker, Maxim Leo, Constantin Lieb",
+    "Actors": "Charly Hübner, Christiane Paul, Daniel Brühl",
+    "Plot": "N/A",
+    "Language": "German",
+    "Country": "Germany",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt35010081",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
