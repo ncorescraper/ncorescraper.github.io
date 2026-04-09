@@ -12623,5 +12623,45 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt0097202": {
+    "Title": "The Killer",
+    "Year": "1989",
+    "Rated": "R",
+    "Released": "01 Sep 1990",
+    "Runtime": "111 min",
+    "Genre": "Action, Crime, Drama",
+    "Director": "John Woo",
+    "Writer": "John Woo",
+    "Actors": "Chow Yun-Fat, Danny Lee, Sally Yeh",
+    "Plot": "A disillusioned assassin accepts one last hit in hopes of using his earnings to restore the vision of a singer he accidentally blinded.",
+    "Language": "Cantonese, Mandarin, Japanese, English",
+    "Country": "Hong Kong",
+    "Awards": "2 wins & 6 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjQyZDJhNTktYjZiZC00ODU4LTg5OTYtYjc2MzA2OGFjMzZmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "96%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "82/100"
+      }
+    ],
+    "Metascore": "82",
+    "imdbRating": "7.7",
+    "imdbVotes": "53,376",
+    "imdbID": "tt0097202",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
