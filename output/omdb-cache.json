@@ -12663,5 +12663,34 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt11399498": {
+    "Title": "Welcome to Plathville",
+    "Year": "2019–",
+    "Rated": "TV-PG",
+    "Released": "05 Nov 2019",
+    "Runtime": "2 min",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Kim Plath, Olivia Plath, Moriah Plath",
+    "Plot": "The Plaths are a blonde, blue-eyed family of 11 in southeastern Georgia who share a passion for music, religion, family life, and traditional roles.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWUzMWM1MmUtMTY4OS00YmJmLTg5MWUtMjA3OGVmODU0ZTRiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.5",
+    "imdbVotes": "749",
+    "imdbID": "tt11399498",
+    "Type": "series",
+    "totalSeasons": "7",
+    "Response": "True"
   }
 }
