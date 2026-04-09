@@ -12878,5 +12878,37 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt0093765": {
+    "Title": "The Possessed",
+    "Year": "1988",
+    "Rated": "N/A",
+    "Released": "24 Feb 1988",
+    "Runtime": "116 min",
+    "Genre": "Drama",
+    "Director": "Andrzej Wajda",
+    "Writer": "Jean-Claude Carrière, Andrzej Wajda, Agnieszka Holland",
+    "Actors": "Isabelle Huppert, Jutta Lampe, Philippine Leroy-Beaulieu",
+    "Plot": "In 1870 Russia, a group of young and idealistic anarchists plots to overthrow the established order through violent means.",
+    "Language": "French",
+    "Country": "France",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOGNlYjVlOGMtODFjNS00NzI1LThhMjYtODM3YWRjZDkyMDgxXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.3",
+    "imdbVotes": "660",
+    "imdbID": "tt0093765",
+    "Type": "movie",
+    "DVD": "10 Jul 1996",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
