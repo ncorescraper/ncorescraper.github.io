@@ -12910,5 +12910,145 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt1527793": {
+    "Title": "No Other Choice",
+    "Year": "2025",
+    "Rated": "R",
+    "Released": "16 Jan 2026",
+    "Runtime": "139 min",
+    "Genre": "Comedy, Crime, Drama",
+    "Director": "Park Chan-wook",
+    "Writer": "Donald E. Westlake, Park Chan-wook, Lee Kyoung-mi",
+    "Actors": "Lee Byung-hun, Son Ye-jin, Woo Seung Kim",
+    "Plot": "After being fired, a man devises a unique plan to secure a new job: eliminate his competition.",
+    "Language": "Korean, English",
+    "Country": "South Korea, France",
+    "Awards": "19 wins & 102 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "98%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "86/100"
+      }
+    ],
+    "Metascore": "86",
+    "imdbRating": "7.6",
+    "imdbVotes": "45,085",
+    "imdbID": "tt1527793",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$9,950,355",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0084565": {
+    "Title": "Querelle",
+    "Year": "1982",
+    "Rated": "R",
+    "Released": "08 Sep 1982",
+    "Runtime": "108 min",
+    "Genre": "Drama",
+    "Director": "Rainer Werner Fassbinder",
+    "Writer": "Jean Genet, Rainer Werner Fassbinder, Burkhard Driest",
+    "Actors": "Brad Davis, Franco Nero, Jeanne Moreau",
+    "Plot": "A handsome sailor is drawn into a vortex of sibling rivalry, murder, and explosive sexuality.",
+    "Language": "English",
+    "Country": "West Germany, France",
+    "Awards": "5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BN2Y5N2RjNzUtNTRlZC00NWQzLWFjN2EtM2VmMzMxMjZlNmU0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "65%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.6",
+    "imdbVotes": "8,276",
+    "imdbID": "tt0084565",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0437447": {
+    "Title": "Riding Alone for Thousands of Miles",
+    "Year": "2005",
+    "Rated": "PG",
+    "Released": "22 Dec 2005",
+    "Runtime": "107 min",
+    "Genre": "Drama",
+    "Director": "Yimou Zhang",
+    "Writer": "Yimou Zhang, Jingzhi Zou, Bin Wang",
+    "Actors": "Ken Takakura, Kiichi Nakai, Shinobu Terajima",
+    "Plot": "A Japanese father travels to China's Yunnan province in the place of his ailing son to film a folk-opera singer.",
+    "Language": "Mandarin, Japanese",
+    "Country": "China, Japan, Hong Kong",
+    "Awards": "6 wins & 10 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc1MDIwMjYxOV5BMl5BanBnXkFtZTcwMjc0ODQzMQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "80%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "73/100"
+      }
+    ],
+    "Metascore": "73",
+    "imdbRating": "7.3",
+    "imdbVotes": "5,685",
+    "imdbID": "tt0437447",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$252,325",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt19496062": {
+    "Title": "Aldatmak",
+    "Year": "2022–2024",
+    "Rated": "N/A",
+    "Released": "22 Sep 2022",
+    "Runtime": "N/A",
+    "Genre": "Drama",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Vahide Perçin, Ercan Kesal, Mustafa Ugurlu",
+    "Plot": "A respected family court judge and a principled woman dedicated to saving marriages and ensuring children's well-being find themselves on opposite sides of a case that tests their beliefs.",
+    "Language": "Turkish",
+    "Country": "Turkey",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWViZGFhMWItM2M5ZS00NDE1LTgxODAtNGRhOGI1OTUwNDhmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "394",
+    "imdbID": "tt19496062",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
   }
 }
