@@ -13215,5 +13215,61 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt32362890": {
+    "Title": "Beneath the Storm",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "01 Aug 2025",
+    "Runtime": "N/A",
+    "Genre": "Thriller",
+    "Director": "Tommy Wirkola",
+    "Writer": "Tommy Wirkola",
+    "Actors": "Djimon Hounsou, Phoebe Dynevor, Whitney Peak",
+    "Plot": "N/A",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt32362890",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt20268688": {
+    "Title": "Turn of the Tide",
+    "Year": "2023–",
+    "Rated": "TV-MA",
+    "Released": "26 May 2023",
+    "Runtime": "N/A",
+    "Genre": "Drama",
+    "Director": "N/A",
+    "Writer": "Augusto de Fraga",
+    "Actors": "José Condessa, Helena Caldeira, Rodrigo Tomás",
+    "Plot": "Four friends whose lives changed forever with the arrival of a ton of cocaine.",
+    "Language": "Portuguese, English, Italian",
+    "Country": "Portugal",
+    "Awards": "8 wins & 4 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDYzM2ViNTktMjg1OC00ZmEzLTlhOTEtOGQwNDM5ODc4YWEzXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.4",
+    "imdbVotes": "6,435",
+    "imdbID": "tt20268688",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
   }
 }
