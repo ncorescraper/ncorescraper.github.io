@@ -13271,5 +13271,72 @@
     "Type": "series",
     "totalSeasons": "2",
     "Response": "True"
+  },
+  "tt0070510": {
+    "Title": "Paper Moon",
+    "Year": "1973",
+    "Rated": "PG",
+    "Released": "09 May 1973",
+    "Runtime": "102 min",
+    "Genre": "Comedy, Crime, Drama",
+    "Director": "Peter Bogdanovich",
+    "Writer": "Joe David Brown, Alvin Sargent",
+    "Actors": "Ryan O'Neal, Tatum O'Neal, Madeline Kahn",
+    "Plot": "During the Great Depression, a con man finds himself saddled with a young girl who may or may not be his daughter, and the two forge an unlikely partnership.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 1 Oscar. 9 wins & 10 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODU5MGI4ZmItYTAyYi00NmI3LWExZTQtNTYzYjM3ZDY5NGVkXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "91%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "77/100"
+      }
+    ],
+    "Metascore": "77",
+    "imdbRating": "8.1",
+    "imdbVotes": "57,050",
+    "imdbID": "tt0070510",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt23724682": {
+    "Title": "Outcome",
+    "Year": "2023",
+    "Rated": "N/A",
+    "Released": "19 Nov 2023",
+    "Runtime": "N/A",
+    "Genre": "Crime, Horror, Mystery",
+    "Director": "Jonah Hill",
+    "Writer": "Jonah Hill, Ezra Woods",
+    "Actors": "Keanu Reeves, Jonah Hill",
+    "Plot": "Follows Hollywood starlet Reef as he is forced to confront his problems and atone for his past after being threatened by a bizarre video footage from his past.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt23724682",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
