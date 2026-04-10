@@ -13398,5 +13398,45 @@
     "Type": "series",
     "totalSeasons": "N/A",
     "Response": "True"
+  },
+  "tt0094142": {
+    "Title": "Throw Momma from the Train",
+    "Year": "1987",
+    "Rated": "PG-13",
+    "Released": "11 Dec 1987",
+    "Runtime": "88 min",
+    "Genre": "Comedy, Crime, Thriller",
+    "Director": "Danny DeVito",
+    "Writer": "Stu Silver",
+    "Actors": "Danny DeVito, Billy Crystal, Kim Greist",
+    "Plot": "A bitter writing teacher wants his successful ex-wife dead. A put-upon mama's boy writing student wants his overbearing mother dead. Will there be a criss-cross murder plot?",
+    "Language": "English, Spanish",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 2 wins & 4 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjgyNjlmMjUtYjIyYy00OTY0LWI0YzgtZWNiYTI5MzM4MzA1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "64%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "56/100"
+      }
+    ],
+    "Metascore": "56",
+    "imdbRating": "6.3",
+    "imdbVotes": "43,033",
+    "imdbID": "tt0094142",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$57,915,972",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
