@@ -13159,5 +13159,61 @@
     "Type": "series",
     "totalSeasons": "4",
     "Response": "True"
+  },
+  "tt0081674": {
+    "Title": "UFOria",
+    "Year": "1984",
+    "Rated": "PG",
+    "Released": "01 Oct 1985",
+    "Runtime": "93 min",
+    "Genre": "Comedy, Sci-Fi",
+    "Director": "John Binder",
+    "Writer": "John Binder",
+    "Actors": "Cindy Williams, Harry Dean Stanton, Fred Ward",
+    "Plot": "Sheldon Bart is a drifter, and a small-time con man. He meets his old friend, Brother Bud, a big-time con man into faith healing and fencing stolen cars, at his revival tent outside a small town. While he's helping Brother Bud, he...",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc4MDUxNDg1Nl5BMl5BanBnXkFtZTcwNzk2MTUxMQ@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.2",
+    "imdbVotes": "502",
+    "imdbID": "tt0081674",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt35466672": {
+    "Title": "Malcolm in the Middle: Life's Still Unfair",
+    "Year": "2026–",
+    "Rated": "N/A",
+    "Released": "10 Apr 2026",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Drama",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Caleb Ellsworth-Clark, Craig Lamar Traylor, Todd Giebenhain",
+    "Plot": "Malcolm and his daughter are drawn into the family's chaos when Hal and Lois demand his presence for their 40th wedding anniversary party.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTFjNTM3NjgtMzI3NC00YTA1LTk4MjQtYWI2M2VhNDZmYTIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt35466672",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
