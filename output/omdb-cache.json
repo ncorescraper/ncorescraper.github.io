@@ -14015,5 +14015,45 @@
     "Type": "series",
     "totalSeasons": "23",
     "Response": "True"
+  },
+  "tt0085276": {
+    "Title": "Breathless",
+    "Year": "1983",
+    "Rated": "R",
+    "Released": "13 May 1983",
+    "Runtime": "100 min",
+    "Genre": "Action, Drama, Romance",
+    "Director": "Jim McBride",
+    "Writer": "L.M. Kit Carson, Jim McBride, Jean-Luc Godard",
+    "Actors": "Richard Gere, Valérie Kaprisky, Art Metrano",
+    "Plot": "When Jesse Lujack steals a car in Las Vegas and drives down to LA, his criminal ways only escalate - but when will it end?",
+    "Language": "English, Italian",
+    "Country": "United States",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWQ1NWVjMmQtY2I3Ny00NGEwLTgzYTItNjc0NTBjZjFlODZhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "61%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "52/100"
+      }
+    ],
+    "Metascore": "52",
+    "imdbRating": "6.0",
+    "imdbVotes": "10,960",
+    "imdbID": "tt0085276",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$19,910,002",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
