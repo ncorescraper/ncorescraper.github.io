@@ -14308,5 +14308,32 @@
     "Type": "series",
     "totalSeasons": "2",
     "Response": "True"
+  },
+  "tt34375721": {
+    "Title": "Sárkányok Kabul felett",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "20 Nov 2025",
+    "Runtime": "N/A",
+    "Genre": "Action",
+    "Director": "Zsombor Dyga",
+    "Writer": "Aron Horvath",
+    "Actors": "Nóra Trokán, Marco Lascari, Harry Szovik",
+    "Plot": "N/A",
+    "Language": "Hungarian",
+    "Country": "Hungary",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzA3NjQ4YmMtMmNlOS00NzJjLTk1YzgtMjYzMDRkMzRhYjNlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt34375721",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
