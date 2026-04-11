@@ -14220,5 +14220,93 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt20917826": {
+    "Title": "You, Me & Her",
+    "Year": "2023",
+    "Rated": "N/A",
+    "Released": "02 Jul 2023",
+    "Runtime": "94 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Dan Levy Dagerman",
+    "Writer": "Selina Ringel",
+    "Actors": "Sydney Park, Anna Campbell, Graham Sibley",
+    "Plot": "Mags and Ash attempt to rekindle their marriage on their vacation after having a baby but kept arguing the whole trip. Mags meets Angela and have an instant connection soon the couple start to reconnect over the idea of a threesome.",
+    "Language": "English",
+    "Country": "United States, Mexico",
+    "Awards": "12 wins",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzAwNjFkY2EtNjM1My00YjFmLTgwOTAtMDU5Mjk0MmI4MzNkXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "47%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "26",
+    "imdbID": "tt20917826",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt5810042": {
+    "Title": "Fragmentada",
+    "Year": "2023",
+    "Rated": "N/A",
+    "Released": "03 Aug 2023",
+    "Runtime": "103 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "Facundo Escudero Salinas",
+    "Writer": "Facundo Escudero Salinas",
+    "Actors": "Jazmín Stuart, Beatriz Spelzini, César Bordón",
+    "Plot": "A policewoman returns with her young daughter to her hometown to care for her dying mother. The murder of a young girl will keep her there longer than expected. Thus, she will try to solve a case that no one seems to care about.",
+    "Language": "Spanish",
+    "Country": "Argentina, Uruguay",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZGNkZjViYmQtODcxYy00ZTFhLTgyYjUtYzQyMGJlMDg0NDc0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "88",
+    "imdbID": "tt5810042",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt2196296": {
+    "Title": "The Time of Our Lives",
+    "Year": "2013–2014",
+    "Rated": "N/A",
+    "Released": "16 Jun 2013",
+    "Runtime": "N/A",
+    "Genre": "Drama",
+    "Director": "N/A",
+    "Writer": "Judi McCrossin, Amanda Higgs",
+    "Actors": "Justine Clarke, Shane Jacobson, William McInnes",
+    "Plot": "The lives of family and friends who go through a variety of ups and downs.",
+    "Language": "English",
+    "Country": "Australia",
+    "Awards": "1 win & 3 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjUxMmJhOTUtYzNiYS00MDQyLWI2ZDUtZGJkZDg3NTUzNDM2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.9/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.9",
+    "imdbVotes": "827",
+    "imdbID": "tt2196296",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
   }
 }
