@@ -14111,5 +14111,114 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt2004432": {
+    "Title": "Wolf Creek 2",
+    "Year": "2013",
+    "Rated": "Not Rated",
+    "Released": "17 Apr 2014",
+    "Runtime": "106 min",
+    "Genre": "Horror, Thriller",
+    "Director": "Greg McLean",
+    "Writer": "Greg McLean, Aaron Sterns",
+    "Actors": "John Jarratt, Ryan Corr, Shannon Ashlyn",
+    "Plot": "The outback once more becomes a place of horror as another unwitting tourist becomes the prey for crazed, serial-killing pig-hunter Mick Taylor.",
+    "Language": "English, German",
+    "Country": "Australia",
+    "Awards": "4 wins & 4 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQxMDMxNjMwOV5BMl5BanBnXkFtZTgwNzk1MzI1MTE@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "51%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "44/100"
+      }
+    ],
+    "Metascore": "44",
+    "imdbRating": "6.2",
+    "imdbVotes": "23,813",
+    "imdbID": "tt2004432",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt17676734": {
+    "Title": "Americana",
+    "Year": "2023",
+    "Rated": "R",
+    "Released": "22 Aug 2025",
+    "Runtime": "107 min",
+    "Genre": "Comedy, Crime, Drama",
+    "Director": "Tony Tost",
+    "Writer": "Tony Tost",
+    "Actors": "Sydney Sweeney, Paul Walter Hauser, Halsey",
+    "Plot": "The lives of local outsiders and outcasts violently intertwine when a rare Lakota Ghost shirt falls onto the black market in a small South Dakota town.",
+    "Language": "English",
+    "Country": "United States, Canada",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODEzNDU5NDktNTg3YS00MDE1LWFjZTktYjYxMGM4MmI1MjNiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "64%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "61/100"
+      }
+    ],
+    "Metascore": "61",
+    "imdbRating": "5.9",
+    "imdbVotes": "6,753",
+    "imdbID": "tt17676734",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0429087": {
+    "Title": "Shantaram",
+    "Year": "2022",
+    "Rated": "TV-MA",
+    "Released": "14 Oct 2022",
+    "Runtime": "N/A",
+    "Genre": "Action, Adventure, Crime",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Charlie Hunnam, Fayssal Bazzi, Sujaya Dasgupta",
+    "Plot": "Lindsay arrives in Mumbai after escaping from an Australian prison. He meets Prabhakar who takes him to his native village where he relaunches his criminal career as Shantaram in the city's notorious underworld.",
+    "Language": "English, Marathi",
+    "Country": "United States",
+    "Awards": "1 win total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzdlODA5MWEtOTM3MC00NjZkLTk2MjItMzExZTk1NjUxZGViXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.4",
+    "imdbVotes": "17,735",
+    "imdbID": "tt0429087",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
