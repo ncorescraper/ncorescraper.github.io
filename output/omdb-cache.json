@@ -13834,5 +13834,121 @@
     "Type": "series",
     "totalSeasons": "22",
     "Response": "True"
+  },
+  "tt29780951": {
+    "Title": "Wild Cards",
+    "Year": "2024–",
+    "Rated": "TV-14",
+    "Released": "17 Jan 2024",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Crime, Drama",
+    "Director": "N/A",
+    "Writer": "Michael Konyves",
+    "Actors": "Vanessa Morgan, Giacomo Gianniotti, Michael Xavier",
+    "Plot": "A spirited con woman and a demoted by-the-book detective are given the chance to redeem themselves. The catch? They must find a way to work together each using their unique skills to solve crimes.",
+    "Language": "English",
+    "Country": "Canada, United States",
+    "Awards": "4 wins & 8 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWM0NzhlYzEtOWZkZC00ZjI0LThjMTYtZGNmMDBjNDBhMjY2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.2",
+    "imdbVotes": "4,813",
+    "imdbID": "tt29780951",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
+  },
+  "tt0078701": {
+    "Title": "This Old House",
+    "Year": "1979–",
+    "Rated": "TV-G",
+    "Released": "01 Jan 1979",
+    "Runtime": "30 min",
+    "Genre": "Documentary, Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Norm Abram, Richard Trethewey, Tom Silva",
+    "Plot": "The host guides various participants as they repair and renovate various houses.",
+    "Language": "English",
+    "Country": "USA",
+    "Awards": "20 wins & 83 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWM3Njc4Y2ItMTBkNC00NzFhLThiYjctNDk1NDExMDgwYjYzXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "1,181",
+    "imdbID": "tt0078701",
+    "Type": "series",
+    "totalSeasons": "47",
+    "Response": "True"
+  },
+  "tt0163963": {
+    "Title": "This Hour Has 22 Minutes",
+    "Year": "1993–",
+    "Rated": "TV-14",
+    "Released": "11 Oct 1993",
+    "Runtime": "N/A",
+    "Genre": "Comedy, News, Talk-Show",
+    "Director": "N/A",
+    "Writer": "Mary Walsh",
+    "Actors": "Mark Critch, Cathy Jones, Shaun Majumder",
+    "Plot": "This skit-filled Canadian comedy show pokes fun at the Canadian government and other national happenings.",
+    "Language": "English",
+    "Country": "Canada",
+    "Awards": "49 wins & 68 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDkzOTY0NzktOTViMy00MGM5LTgzMDAtMmMwZDQ1MTJkNGM0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.0",
+    "imdbVotes": "1,018",
+    "imdbID": "tt0163963",
+    "Type": "series",
+    "totalSeasons": "32",
+    "Response": "True"
+  },
+  "tt27238424": {
+    "Title": "The Whole Story with Anderson Cooper",
+    "Year": "2023–",
+    "Rated": "N/A",
+    "Released": "16 Apr 2023",
+    "Runtime": "N/A",
+    "Genre": "Talk-Show",
+    "Director": "N/A",
+    "Writer": "Anderson Cooper",
+    "Actors": "Anderson Cooper, Donie O'Sullivan, Pamela Brown",
+    "Plot": "N/A",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzMzNTYyMTEtZmViNi00NjFlLThmN2ItODFlY2RjYjUxY2VmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.5",
+    "imdbVotes": "119",
+    "imdbID": "tt27238424",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
   }
 }
