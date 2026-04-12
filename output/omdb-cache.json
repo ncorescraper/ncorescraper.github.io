@@ -14545,5 +14545,34 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt20883058": {
+    "Title": "On Patrol: Live",
+    "Year": "2022–",
+    "Rated": "TV-14",
+    "Released": "22 Jul 2022",
+    "Runtime": "31S min",
+    "Genre": "Crime, Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Dan Abrams, Curtis Wilson, Tom Rizzo",
+    "Plot": "It follows the everyday lives of police officers on patrol from diverse departments across America.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjk2NWU1OWUtNDRjZC00NzBmLWE3NDMtNjUzMWQ5MjgwNjFlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "9.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "9.0",
+    "imdbVotes": "854",
+    "imdbID": "tt20883058",
+    "Type": "series",
+    "totalSeasons": "4",
+    "Response": "True"
   }
 }
