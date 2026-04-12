@@ -14808,5 +14808,63 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt0224887": {
+    "Title": "Heti Hetes",
+    "Year": "1999–",
+    "Rated": "N/A",
+    "Released": "10 Sep 1999",
+    "Runtime": "60 min",
+    "Genre": "Comedy, Talk-Show",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "László Jáksó, János Gálvölgyi, Tivadar Farkasházy",
+    "Plot": "A Hungarian public entertainment program of a commercial television channel RTL KLUB, defined by cynical humor, bias, and the service of the power interests of their political community.",
+    "Language": "Hungarian",
+    "Country": "Hungary",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyZWQxNGYtYjEyMC00OTBhLTgxODEtMjBkNjFhMjhjNzdjXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.3",
+    "imdbVotes": "450",
+    "imdbID": "tt0224887",
+    "Type": "series",
+    "totalSeasons": "18",
+    "Response": "True"
+  },
+  "tt1841321": {
+    "Title": "Secret Garden",
+    "Year": "2010–2011",
+    "Rated": "N/A",
+    "Released": "13 Nov 2010",
+    "Runtime": "60 min",
+    "Genre": "Comedy, Drama, Fantasy",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Ha Ji-Won, Hyun Bin, Yoon Sang-Hyun",
+    "Plot": "Gil Ra-im is a tough stuntwoman with a soft heart. Kim Joo-won is a nit-picky CEO with a long list of complexes. Love-struck, Joo-won barges into Ra-im's life in all the wrong ways, trying to make sense of his illogical feelings.",
+    "Language": "Korean, English, Japanese",
+    "Country": "South Korea",
+    "Awards": "12 wins & 10 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWE3YTkzOTUtMzdmOS00NzEwLWFlOTMtNTFkMmY5N2Q4YzI5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "8,378",
+    "imdbID": "tt1841321",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
