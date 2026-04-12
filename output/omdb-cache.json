@@ -14574,5 +14574,63 @@
     "Type": "series",
     "totalSeasons": "4",
     "Response": "True"
+  },
+  "tt33310730": {
+    "Title": "Medalist",
+    "Year": "2025–",
+    "Rated": "TV-14",
+    "Released": "04 Jan 2025",
+    "Runtime": "N/A",
+    "Genre": "Animation, Drama, Sport",
+    "Director": "N/A",
+    "Writer": "Tsurumaikada",
+    "Actors": "Jonathon Ha, Madeline Dorroh, Alejandra Reynoso",
+    "Plot": "Tsukasa, whose dreams were crushed. Inori, left to fend for herself. These two share a dream...and their tenacity may be the only thing that sees them through. Their destination? The ice...on the world's stage.",
+    "Language": "Japanese",
+    "Country": "Japan",
+    "Awards": "2 wins & 5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWMyYjE1ZWYtMTRhZC00MDFkLWFkOTEtMGZkNzc0MmVkMjQ2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.0",
+    "imdbVotes": "759",
+    "imdbID": "tt33310730",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
+  },
+  "tt36825547": {
+    "Title": "Divorced Sistas",
+    "Year": "2025–",
+    "Rated": "N/A",
+    "Released": "09 Jun 2025",
+    "Runtime": "N/A",
+    "Genre": "Comedy, Drama",
+    "Director": "N/A",
+    "Writer": "Tyler Perry",
+    "Actors": "LeToya Luckett, Khadeen Indréa, Porscha Coleman",
+    "Plot": "Five friends - Rasheda, Geneva, Naomi, Tiffany, and Bridgette - support each other through divorce, marriage, dating, healing, and friendship struggles while their loyalty and sisterhood bonds are tested.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTg0NzAxNjAtNDlmNi00OTBmLWExMjQtMzkwMjI5ZTgxODFiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.6",
+    "imdbVotes": "294",
+    "imdbID": "tt36825547",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
