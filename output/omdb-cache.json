@@ -14632,5 +14632,74 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt28682323": {
+    "Title": "The Strangers: Chapter 3",
+    "Year": "2026",
+    "Rated": "R",
+    "Released": "06 Feb 2026",
+    "Runtime": "91 min",
+    "Genre": "Horror",
+    "Director": "Renny Harlin",
+    "Writer": "Alan R. Cohen, Alan Freedland, Bryan Bertino",
+    "Actors": "Hannah Galway, Gabriel Basso, Ema Horvath",
+    "Plot": "In the series' most brutal chapter, Maya collides with the masked killers and finds the only way out of the nightmare...is in.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZGQ2ZDJlMjgtYmMwNi00MjAxLWIzOWYtMzE0YTFjZWYyNmEzXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "21%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "19/100"
+      }
+    ],
+    "Metascore": "19",
+    "imdbRating": "4.1",
+    "imdbVotes": "1,736",
+    "imdbID": "tt28682323",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$8,553,675",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt18270066": {
+    "Title": "Be My Guest with Ina Garten",
+    "Year": "2022–",
+    "Rated": "TV-G",
+    "Released": "26 Mar 2022",
+    "Runtime": "N/A",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Ina Garten, Emily Blunt, Nathan Lane",
+    "Plot": "Barefoot Contessa invites some friends to her home in East Hampton. For a day of conversation, connection, food and fun visits to some of her favorite local spots.",
+    "Language": "N/A",
+    "Country": "United States",
+    "Awards": "2 wins & 2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTI3NTU3ZjEtZjU5MS00MmI5LWI3YjAtYjM3ZTI2NDFlMmM5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.7/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.7",
+    "imdbVotes": "83",
+    "imdbID": "tt18270066",
+    "Type": "series",
+    "totalSeasons": "5",
+    "Response": "True"
   }
 }
