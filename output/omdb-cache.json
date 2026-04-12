@@ -14463,5 +14463,87 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt1785123": {
+    "Title": "Storage Wars",
+    "Year": "2010–",
+    "Rated": "TV-14",
+    "Released": "01 Dec 2010",
+    "Runtime": "22 min",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Brandi Passante, Jarrod Schulz, Laura Dotson",
+    "Plot": "The same folks gather at the sales of storage units that have been abandoned by their renters. Having no clue what's inside, there are just enough instances where the buyers hit pay dirt to keep them, as well as the TV audience, a...",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTM1ZjlkMGUtYjE2Yy00MGY2LWE2M2QtYTIyOTVlZDExYjVhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.3",
+    "imdbVotes": "10,997",
+    "imdbID": "tt1785123",
+    "Type": "series",
+    "totalSeasons": "16",
+    "Response": "True"
+  },
+  "tt21875120": {
+    "Title": "At Home with the Furys",
+    "Year": "2023–",
+    "Rated": "TV-MA",
+    "Released": "16 Aug 2023",
+    "Runtime": "N/A",
+    "Genre": "Documentary, Reality-TV, Sport",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Tyson Fury, Paris Fury, Venezuela Fury",
+    "Plot": "The heavyweight champion as he exits the ring and tries to embrace retirement with his family including his wife Paris, father John, and his six children.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWVmMDkwMzYtODcwYy00YjgxLWI3NmYtZDdjYTQ2N2ZkOTdjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.0",
+    "imdbVotes": "1,360",
+    "imdbID": "tt21875120",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
+  },
+  "tt30923123": {
+    "Title": "The Audacity",
+    "Year": "2026–",
+    "Rated": "N/A",
+    "Released": "12 Apr 2026",
+    "Runtime": "N/A",
+    "Genre": "Drama, Thriller",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Lucy Punch, Billy Magnussen, Zach Galifianakis",
+    "Plot": "In the bubble of Silicon Valley, the unorthodox relationship between a wannabe tech titan and his therapist illustrate the Valley's madness and failings.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWVjY2MxYTctN2EwNS00ZGVkLWJkYjgtNWMwNzBiMTY1MDZjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt30923123",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
