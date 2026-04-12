@@ -14701,5 +14701,37 @@
     "Type": "series",
     "totalSeasons": "5",
     "Response": "True"
+  },
+  "tt13516094": {
+    "Title": "Gold Digger Killer",
+    "Year": "2021",
+    "Rated": "TV-14",
+    "Released": "13 Jun 2021",
+    "Runtime": "87 min",
+    "Genre": "Crime, Drama",
+    "Director": "Robin Hays",
+    "Writer": "Margaux Froley, Donald Martin, Suzy Spencer",
+    "Actors": "Julie Benz, Roan Curtis, Georgia Bradner",
+    "Plot": "Multimillionaire Steven Beard, a retired broadcasting executive, falls hard for Celeste, an attractive waitress who serves him his nightly cocktail at his local country club in Austin, Texas.",
+    "Language": "English",
+    "Country": "Canada, United States",
+    "Awards": "2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjE1MTI1MGQtMzk3MS00MDkzLWFhMTctOTJiNmM5YmNmNTU2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.4",
+    "imdbVotes": "497",
+    "imdbID": "tt13516094",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
