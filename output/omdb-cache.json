@@ -14893,5 +14893,45 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt27766440": {
+    "Title": "The Salt Path",
+    "Year": "2024",
+    "Rated": "Not Rated",
+    "Released": "30 May 2025",
+    "Runtime": "115 min",
+    "Genre": "Drama",
+    "Director": "Marianne Elliott",
+    "Writer": "Rebecca Lenkiewicz, Raynor Winn",
+    "Actors": "Gillian Anderson, Jason Isaacs, Denis Lill",
+    "Plot": "A couple lose their home and later discover the husband has been diagnosed with a terminal illness as they embark on a year long coastal trek.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BY2E3MDcxNGQtZDQ4OS00YmJiLTljYjEtNTM3YjlkOTgyMDk4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "84%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "49/100"
+      }
+    ],
+    "Metascore": "49",
+    "imdbRating": "6.8",
+    "imdbVotes": "4,446",
+    "imdbID": "tt27766440",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
