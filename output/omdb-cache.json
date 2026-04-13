@@ -15237,5 +15237,34 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt1945937": {
+    "Title": "Supa Strikas",
+    "Year": "2008–",
+    "Rated": "TV-PG",
+    "Released": "07 Nov 2008",
+    "Runtime": "22 min",
+    "Genre": "Animation, Family, Sport",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Corny Rempel, Nolan Balzer, Kevin Aichele",
+    "Plot": "About the world's greatest football team. Despite their enormous talent, the players must adapt in a game where being the best is only the beginning, and where the opposition is always full of surprises.",
+    "Language": "English",
+    "Country": "Zambia, Malaysia",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjUwYzlkMjEtYmMxYi00M2IxLWJmMTctNWQ4Njc1ZTllZGUwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "534",
+    "imdbID": "tt1945937",
+    "Type": "series",
+    "totalSeasons": "7",
+    "Response": "True"
   }
 }
