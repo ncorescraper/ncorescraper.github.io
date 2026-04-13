@@ -14933,5 +14933,34 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt8772296": {
+    "Title": "Euphoria",
+    "Year": "2019–",
+    "Rated": "TV-MA",
+    "Released": "16 Jun 2019",
+    "Runtime": "55 min",
+    "Genre": "Drama",
+    "Director": "N/A",
+    "Writer": "Sam Levinson",
+    "Actors": "Zendaya, Hunter Schafer, Maude Apatow",
+    "Plot": "A group of teenagers experience the ups and downs of love and friendship in a world of social networks, sex, drugs, and violence.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 9 Primetime Emmys. 42 wins & 105 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjVlN2M2N2MtOWViZC00MzIxLTlhZWEtMTIwNDIwMzE3ZWJiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.2",
+    "imdbVotes": "291,961",
+    "imdbID": "tt8772296",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
   }
 }
