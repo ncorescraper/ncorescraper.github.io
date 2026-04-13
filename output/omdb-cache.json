@@ -15049,5 +15049,139 @@
     "Type": "series",
     "totalSeasons": "2",
     "Response": "True"
+  },
+  "tt0165854": {
+    "Title": "The Limey",
+    "Year": "1999",
+    "Rated": "R",
+    "Released": "04 Aug 1999",
+    "Runtime": "89 min",
+    "Genre": "Crime, Drama, Mystery",
+    "Director": "Steven Soderbergh",
+    "Writer": "Lem Dobbs",
+    "Actors": "Terence Stamp, Peter Fonda, Lesley Ann Warren",
+    "Plot": "An extremely volatile and dangerous Englishman goes to Los Angeles to find the man he considers responsible for his daughter's death.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 win & 9 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOGYzZTI5MGYtZjE2NS00Yzg3LTk5Y2UtNjY3ZDk3MWI3Njg2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "92%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "73/100"
+      }
+    ],
+    "Metascore": "73",
+    "imdbRating": "6.9",
+    "imdbVotes": "37,295",
+    "imdbID": "tt0165854",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$3,204,663",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0081318": {
+    "Title": "City of the Living Dead",
+    "Year": "1980",
+    "Rated": "Not Rated",
+    "Released": "08 Apr 1983",
+    "Runtime": "93 min",
+    "Genre": "Horror",
+    "Director": "Lucio Fulci",
+    "Writer": "Lucio Fulci, Dardano Sacchetti, H.P. Lovecraft",
+    "Actors": "Christopher George, Catriona MacColl, Carlo De Mejo",
+    "Plot": "A reporter and a psychic race to close the Gates of Hell after the suicide of a clergyman caused them to open, allowing the dead to rise from their graves.",
+    "Language": "Italian, English",
+    "Country": "Italy",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjA2Njc3M2ItYTA0OS00ZDg1LWE4NTYtZDE3NTRlYjRkMmFhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "41%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.2",
+    "imdbVotes": "20,765",
+    "imdbID": "tt0081318",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt6666966": {
+    "Title": "Home Town",
+    "Year": "2016–",
+    "Rated": "TV-G",
+    "Released": "24 Jan 2016",
+    "Runtime": "N/A",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Ben Napier, Erin Napier, Richard T. Jones",
+    "Plot": "Ben and Erin Napier work with each other to change old homes into dream homes.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "3 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjhlNGE4MGYtNTFiNS00MGE4LWJkMjktYzgwYjM2NDZlMmRjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.1",
+    "imdbVotes": "1,750",
+    "imdbID": "tt6666966",
+    "Type": "series",
+    "totalSeasons": "9",
+    "Response": "True"
+  },
+  "tt7252812": {
+    "Title": "90 Day Fiancé: Before the 90 Days",
+    "Year": "2017–",
+    "Rated": "TV-14",
+    "Released": "06 Aug 2017",
+    "Runtime": "42 min",
+    "Genre": "Documentary, Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Darcey Silva, Jasmine Pineda, Gino Palazzolo",
+    "Plot": "Couples who have applied for or received a K-1 visa \"available uniquely to foreign fiancés of U.S. citizens\", have 90 days to arrange for and have the marriage ceremony. The visa is not to give time \"to decide IF\" they will marry.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDM2MmM5MWYtM2NhNS00ZTlhLWI5N2EtYzQ4ZWUyYjc3NTU2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.8",
+    "imdbVotes": "1,783",
+    "imdbID": "tt7252812",
+    "Type": "series",
+    "totalSeasons": "8",
+    "Response": "True"
   }
 }
