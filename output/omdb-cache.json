@@ -15441,5 +15441,163 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt13848804": {
+    "Title": "Journey to Bethlehem",
+    "Year": "2023",
+    "Rated": "PG",
+    "Released": "10 Nov 2023",
+    "Runtime": "99 min",
+    "Genre": "Adventure, Family, Musical",
+    "Director": "Adam Anders",
+    "Writer": "Adam Anders, Peter Barsocchini",
+    "Actors": "Fiona Palomo, Milo Manheim, Antonio Banderas",
+    "Plot": "This live-action Christmas musical adventure for the entire family weaves classic Christmas melodies with humor, faith, and new pop songs in a retelling of the greatest story ever told: the story of Mary and Joseph and the birth o...",
+    "Language": "English, French",
+    "Country": "United States, Spain",
+    "Awards": "3 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTU5NmUyNzctMTcyMC00YzdiLTg5ZWEtZjY0NmZjYWM4NGM5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.4/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "74%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.4",
+    "imdbVotes": "3,398",
+    "imdbID": "tt13848804",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$6,820,796",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0202239": {
+    "Title": "Aladdin and the Magic Lamp",
+    "Year": "1982",
+    "Rated": "TV-G",
+    "Released": "17 Aug 1982",
+    "Runtime": "65 min",
+    "Genre": "Animation, Adventure, Family",
+    "Director": "Yoshikatsu Kasai",
+    "Writer": "Akira Miyazaki, Sandra Willard",
+    "Actors": "Kazuo Kamiya, Keiko Suzuka, Kikuo Kaneuchi",
+    "Plot": "Aladdin told the Genie that the Princess was kidnapped by the Wizard.",
+    "Language": "Japanese",
+    "Country": "Japan",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTFjYjE1YTctYTkxOC00ZDdiLTk3MTktZDc4YjQxNmQ0YzhjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.8",
+    "imdbVotes": "302",
+    "imdbID": "tt0202239",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt9023964": {
+    "Title": "Silent Zone",
+    "Year": "2025",
+    "Rated": "R",
+    "Released": "07 Mar 2025",
+    "Runtime": "119 min",
+    "Genre": "Action, Horror, Thriller",
+    "Director": "Peter Deak",
+    "Writer": "Viktor Csák, Krisztián Illés",
+    "Actors": "Matt Devere, Luca Papp, Nikolett Barabas",
+    "Plot": "In a zombie-ravaged world, a resourceful teen and her protector fight for survival, facing relentless dangers and testing the limits of hope and loyalty.",
+    "Language": "English",
+    "Country": "Hungary",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTI4ODM3NTMtZmE2Mi00OTIxLWFhN2YtOGRkNDI0NmNkNmUzXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "4.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "4.5",
+    "imdbVotes": "756",
+    "imdbID": "tt9023964",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0182576": {
+    "Title": "Family Guy",
+    "Year": "1999–",
+    "Rated": "TV-MA",
+    "Released": "31 Jan 1999",
+    "Runtime": "22 min",
+    "Genre": "Animation, Comedy",
+    "Director": "N/A",
+    "Writer": "Seth MacFarlane, David Zuckerman",
+    "Actors": "Seth MacFarlane, Alex Borstein, Seth Green",
+    "Plot": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 9 Primetime Emmys. 37 wins & 122 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTZlMGQ1YjEtMzVlNC00ZmMxLTk0MzgtZjdkYTU1NmUxNTQ0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.1",
+    "imdbVotes": "385,787",
+    "imdbID": "tt0182576",
+    "Type": "series",
+    "totalSeasons": "24",
+    "Response": "True"
+  },
+  "tt0397306": {
+    "Title": "American Dad!",
+    "Year": "2005–",
+    "Rated": "TV-MA",
+    "Released": "06 Feb 2005",
+    "Runtime": "22 min",
+    "Genre": "Animation, Comedy",
+    "Director": "N/A",
+    "Writer": "Mike Barker, Seth MacFarlane, Matt Weitzman",
+    "Actors": "Seth MacFarlane, Wendy Schaal, Scott Grimes",
+    "Plot": "The escapades of Stan Smith, a conservative C.I.A. Agent dealing with family life, while keeping America safe.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 4 Primetime Emmys. 1 win & 33 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDI4ZWYwMGUtZGE1Yi00OTc5LWI3NDctMGY4ZWE4NzI4NWUwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.4",
+    "imdbVotes": "143,645",
+    "imdbID": "tt0397306",
+    "Type": "series",
+    "totalSeasons": "20",
+    "Response": "True"
   }
 }
