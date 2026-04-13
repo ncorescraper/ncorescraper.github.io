@@ -15293,5 +15293,37 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt0098362": {
+    "Title": "Sons of Steel",
+    "Year": "1988",
+    "Rated": "N/A",
+    "Released": "16 May 1988",
+    "Runtime": "97 min",
+    "Genre": "Comedy, Musical, Sci-Fi",
+    "Director": "Gary L. Keady",
+    "Writer": "Gary L. Keady",
+    "Actors": "Rob Hartley, Roz Wason, Jeff Duff",
+    "Plot": "In a futuristic Australia, a scheme to blow up the Sydney Opera House is discovered. The only way to stop it is to send an agent back in time to prevent the plotters from hatching it.",
+    "Language": "English",
+    "Country": "Australia",
+    "Awards": "2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzhjMzM2MjQtNzY4ZC00MDFhLWEwZTUtNWNjZTc4NmMwMzA0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.1",
+    "imdbVotes": "276",
+    "imdbID": "tt0098362",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
