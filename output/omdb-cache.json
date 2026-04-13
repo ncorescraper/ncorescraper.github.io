@@ -15266,5 +15266,32 @@
     "Type": "series",
     "totalSeasons": "7",
     "Response": "True"
+  },
+  "tt37807047": {
+    "Title": "Silent Zone",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "13 Aug 2025",
+    "Runtime": "5 min",
+    "Genre": "Short, Thriller",
+    "Director": "Fedor Indutny, Olga Kamyshok",
+    "Writer": "Fedor Indutny",
+    "Actors": "Olga Kamyshok",
+    "Plot": "A sailing tutor Rachel Kent takes the sailboat out to the sea, but can she escape the Silent Zone?",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmQ0N2UwNjUtZTA0Yi00YTM1LWI2ODEtNDhiMTUwMjJhZTcwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt37807047",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
