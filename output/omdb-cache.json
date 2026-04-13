@@ -15325,5 +15325,85 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt0032138": {
+    "Title": "The Wizard of Oz",
+    "Year": "1939",
+    "Rated": "G",
+    "Released": "25 Aug 1939",
+    "Runtime": "102 min",
+    "Genre": "Adventure, Family, Fantasy",
+    "Director": "Victor Fleming, George Cukor, Norman Taurog",
+    "Writer": "Noel Langley, Florence Ryerson, Edgar Allan Woolf",
+    "Actors": "Judy Garland, Frank Morgan, Ray Bolger",
+    "Plot": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others...",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Won 2 Oscars. 16 wins & 14 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWRmY2I0MGItYTQ0OC00NWZmLWIwMDktYjJlNDc0MzVhMmViXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "98%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "92/100"
+      }
+    ],
+    "Metascore": "92",
+    "imdbRating": "8.1",
+    "imdbVotes": "464,833",
+    "imdbID": "tt0032138",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$24,668,669",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt0117665": {
+    "Title": "Sleepers",
+    "Year": "1996",
+    "Rated": "R",
+    "Released": "18 Oct 1996",
+    "Runtime": "147 min",
+    "Genre": "Crime, Drama, Thriller",
+    "Director": "Barry Levinson",
+    "Writer": "Lorenzo Carcaterra, Barry Levinson",
+    "Actors": "Robert De Niro, Kevin Bacon, Brad Pitt",
+    "Plot": "A reporter and a District Attorney help childhood friends who killed a sadistic guard.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "Nominated for 1 Oscar. 1 win & 5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjBhMWRmZTAtOGRlNC00YWYxLTlmZWUtYTY4YThlZGNhYmM2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "73%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "49/100"
+      }
+    ],
+    "Metascore": "49",
+    "imdbRating": "7.5",
+    "imdbVotes": "249,395",
+    "imdbID": "tt0117665",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$53,315,285",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
   }
 }
