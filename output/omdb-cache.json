@@ -14962,5 +14962,92 @@
     "Type": "series",
     "totalSeasons": "3",
     "Response": "True"
+  },
+  "tt6713768": {
+    "Title": "Rich House, Poor House",
+    "Year": "2017–",
+    "Rated": "N/A",
+    "Released": "30 Mar 2017",
+    "Runtime": "60 min",
+    "Genre": "Documentary",
+    "Director": "N/A",
+    "Writer": "Claire Collinson-Jones",
+    "Actors": "Craig Kelly, Adam Stott, Dominique Lubin",
+    "Plot": "Two families from opposite ends of the financial spectrum and class divide swap homes, social status and budgets for 7 days as they discover how the other half lives.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWM4MzA4YTItOGVjNC00MDdiLTlhYzctYjkyMGM3M2UyODc4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.6",
+    "imdbVotes": "146",
+    "imdbID": "tt6713768",
+    "Type": "series",
+    "totalSeasons": "9",
+    "Response": "True"
+  },
+  "tt11396164": {
+    "Title": "Rich Holiday, Poor Holiday",
+    "Year": "2020–",
+    "Rated": "N/A",
+    "Released": "23 Feb 2020",
+    "Runtime": "60 min",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Craig Kelly",
+    "Plot": "Two families, one from the top 10% of the income spectrum and the other from the bottom 10%, the chance to swap the holiday they would normally take for one they would never consider.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZmNmMTljNzktNjkwMy00ZWE3LTgzYWYtYmRjNWI2ZGMzODZiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.2",
+    "imdbVotes": "69",
+    "imdbID": "tt11396164",
+    "Type": "series",
+    "totalSeasons": "4",
+    "Response": "True"
+  },
+  "tt23469464": {
+    "Title": "Universal Basic Guys",
+    "Year": "2024–",
+    "Rated": "TV-14",
+    "Released": "08 Sep 2024",
+    "Runtime": "N/A",
+    "Genre": "Animation, Comedy",
+    "Director": "N/A",
+    "Writer": "Adam Malamut, Craig Malamut",
+    "Actors": "Adam Malamut, Talia Genevieve, Fred Armisen",
+    "Plot": "Brothers Mark and Hank Hoagies suddenly find themselves without a job, when the Glantontown Hot Dog factory switches over to automation. But they are lucky enough, because they will be part of a new Universal Basic Income program.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDUyMjZmMzgtYjA4Yi00YTM4LTk1MTctZDEwMWNhMTAyNjU1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.1",
+    "imdbVotes": "1,201",
+    "imdbID": "tt23469464",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
   }
 }
