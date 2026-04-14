@@ -15909,5 +15909,61 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt37172278": {
+    "Title": "Noah Kahan: Out of Body",
+    "Year": "2026",
+    "Rated": "N/A",
+    "Released": "16 Mar 2026",
+    "Runtime": "94 min",
+    "Genre": "Documentary, Music",
+    "Director": "Nick Sweeney",
+    "Writer": "N/A",
+    "Actors": "Noah Kahan",
+    "Plot": "Chronicles Kahan's rise to fame and explores his mental health challenges while dealing with his growing fame.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "N/A",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt37172278",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt27054614": {
+    "Title": "Crooks",
+    "Year": "2024–",
+    "Rated": "TV-MA",
+    "Released": "04 Apr 2024",
+    "Runtime": "N/A",
+    "Genre": "Action, Crime, Drama",
+    "Director": "N/A",
+    "Writer": "Benjamin Hessler, Marvin Kren, Georg Lippert",
+    "Actors": "Frederick Lau, Christoph F. Krutzler, Svenja Jung",
+    "Plot": "Charly's quiet life with family in Berlin disrupted when past associates threaten them, forcing him to steal coin. Charly and driver Joseph, fatefully collided, now flee with family to escape danger.",
+    "Language": "German",
+    "Country": "Germany",
+    "Awards": "1 win & 1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZTMzNGRjZWItOTBkMC00YTE3LTk3NGUtMDgyYTg2ZjIyNWExXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.0",
+    "imdbVotes": "3,917",
+    "imdbID": "tt27054614",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
