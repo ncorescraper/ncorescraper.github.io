@@ -16052,5 +16052,34 @@
     "Type": "series",
     "totalSeasons": "2",
     "Response": "True"
+  },
+  "tt12074628": {
+    "Title": "Smiling Friends",
+    "Year": "2020–",
+    "Rated": "TV-MA",
+    "Released": "01 Apr 2020",
+    "Runtime": "12 min",
+    "Genre": "Animation, Short, Comedy",
+    "Director": "Michael Cusack, Zach Hadel",
+    "Writer": "Michael Cusack, Zach Hadel",
+    "Actors": "Michael Cusack, Zach Hadel, Marc M.",
+    "Plot": "In a colorful yet bizarre world, the employees at a small firm dedicated to making its customers smile discover that their jobs are rarely as simple as they seem.",
+    "Language": "English",
+    "Country": "United Kingdom, Australia, United States",
+    "Awards": "2 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjNkMjdiZGEtMTg3Mi00YTAzLWJkMGYtMmIxMzNjMmRhOGNmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "27,889",
+    "imdbID": "tt12074628",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
   }
 }
