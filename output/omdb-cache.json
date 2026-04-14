@@ -15702,5 +15702,61 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt35676708": {
+    "Title": "Trapped in Her Dorm Room",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "21 Mar 2025",
+    "Runtime": "N/A",
+    "Genre": "N/A",
+    "Director": "Peter Sullivan",
+    "Writer": "Casey John",
+    "Actors": "Ciara Hanna, Will Sparks III, Nicole Dionne",
+    "Plot": "When a classmate's adoration turns into a dangerous obsession, college student Erin finds herself held captive in her own dorm room during Spring Break.",
+    "Language": "N/A",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWEzMDgyNDEtYWI4MC00MTBkLWIwNjgtMTRiYTBmNGRkMzZmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt35676708",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt4116046": {
+    "Title": "24 Hours in Police Custody",
+    "Year": "2014–",
+    "Rated": "TV-PG",
+    "Released": "29 Sep 2014",
+    "Runtime": "60 min",
+    "Genre": "Documentary, Crime",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Zawe Ashton, Royce Pierreson, Attiq Malik",
+    "Plot": "Cameras follow Bedfordshire Police over a 24 hour period as they respond to emergencies, investigate crimes, arrest suspects and battle against the clock.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "Nominated for 1 BAFTA Award5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZTNmMjdlMDgtMTQ3OC00ZmQ3LTlmNzUtZDBjZjgzZTc2NTZjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.4/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.4",
+    "imdbVotes": "1,028",
+    "imdbID": "tt4116046",
+    "Type": "series",
+    "totalSeasons": "13",
+    "Response": "True"
   }
 }
