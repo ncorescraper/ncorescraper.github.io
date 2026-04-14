@@ -15965,5 +15965,92 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt10183798": {
+    "Title": "Rock the Block",
+    "Year": "2019–",
+    "Rated": "TV-PG",
+    "Released": "21 Oct 2019",
+    "Runtime": "N/A",
+    "Genre": "Reality-TV",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Ty Pennington, Michel Smith Boyd, Page Turner",
+    "Plot": "Spotlights the Power Reno professionals as they infuse the houses with their distinctive signature style.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTZiMDM0N2MtNTcxZi00MjRlLTk5ODgtNWYyMTJlYTUwNjAwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.2",
+    "imdbVotes": "504",
+    "imdbID": "tt10183798",
+    "Type": "series",
+    "totalSeasons": "6",
+    "Response": "True"
+  },
+  "tt31186391": {
+    "Title": "Quiz with Balls",
+    "Year": "2024–",
+    "Rated": "N/A",
+    "Released": "28 May 2024",
+    "Runtime": "N/A",
+    "Genre": "Game-Show",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Jay Pharoah, Kevin Schlehuber",
+    "Plot": "A quiz competition with physical challenges, where contestants must work together to answer questions correctly or risk being knocked into a pool by giant balls.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODVkNGM3ZTEtNDFhOS00NzcyLWE2NmItY2UyZGY1ZTM5YjFhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.3/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.3",
+    "imdbVotes": "197",
+    "imdbID": "tt31186391",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
+  },
+  "tt29797830": {
+    "Title": "The 1% Club",
+    "Year": "2024–",
+    "Rated": "TV-14",
+    "Released": "23 May 2024",
+    "Runtime": "N/A",
+    "Genre": "Game-Show",
+    "Director": "N/A",
+    "Writer": "Andy Auerbach, Dean Nabarro",
+    "Actors": "Joel McHale, Patton Oswalt, Dave Braxton",
+    "Plot": "A survey of the nation's intelligence through scientific questions testing brainpower, not school knowledge or memorization. The questions lead to entertaining answers.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOGY2NzYyM2QtMWE1ZC00MTRmLTg5MGEtOWY2YWY4NDY3MTM2XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.9",
+    "imdbVotes": "569",
+    "imdbID": "tt29797830",
+    "Type": "series",
+    "totalSeasons": "2",
+    "Response": "True"
   }
 }
