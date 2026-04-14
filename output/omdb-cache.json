@@ -15787,5 +15787,34 @@
     "Type": "series",
     "totalSeasons": "1",
     "Response": "True"
+  },
+  "tt7491982": {
+    "Title": "FBI",
+    "Year": "2018–",
+    "Rated": "TV-14",
+    "Released": "25 Sep 2018",
+    "Runtime": "60 min",
+    "Genre": "Action, Crime, Drama",
+    "Director": "N/A",
+    "Writer": "Dick Wolf, Craig Turk",
+    "Actors": "Missy Peregrym, Zeeko Zaki, Jeremy Sisto",
+    "Plot": "Follows the inner workings of the New York Field Office of the FBI, as they fight to keep New York City and the country safe.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "3 wins & 5 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjgyODBlZTctNmQ3MC00NTg1LTg4NDItY2YyNmVjODFmMmM5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.1",
+    "imdbVotes": "27,876",
+    "imdbID": "tt7491982",
+    "Type": "series",
+    "totalSeasons": "9",
+    "Response": "True"
   }
 }
