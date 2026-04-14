@@ -15816,5 +15816,98 @@
     "Type": "series",
     "totalSeasons": "9",
     "Response": "True"
+  },
+  "tt1456941": {
+    "Title": "Tomorrow, When the War Began",
+    "Year": "2010",
+    "Rated": "R",
+    "Released": "24 Feb 2012",
+    "Runtime": "104 min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "Stuart Beattie",
+    "Writer": "John Marsden, Stuart Beattie",
+    "Actors": "Caitlin Stasey, Rachel Hurd-Wood, Lincoln Lewis",
+    "Plot": "When their country is invaded and their families are taken, eight unlikely teenagers band together to fight.",
+    "Language": "English",
+    "Country": "Australia",
+    "Awards": "8 wins & 14 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTk2MDMyNjUwOF5BMl5BanBnXkFtZTcwMjYzNjg1Mw@@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "62%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "54/100"
+      }
+    ],
+    "Metascore": "54",
+    "imdbRating": "6.1",
+    "imdbVotes": "32,446",
+    "imdbID": "tt1456941",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$4,936",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt7526498": {
+    "Title": "Shakespeare & Hathaway: Private Investigators",
+    "Year": "2018–",
+    "Rated": "TV-PG",
+    "Released": "25 Feb 2018",
+    "Runtime": "45 min",
+    "Genre": "Comedy, Crime, Drama",
+    "Director": "N/A",
+    "Writer": "Paul Matthew Thompson, Jude Tindall",
+    "Actors": "Mark Benton, Jo Joyner, Patrick Walshe McBride",
+    "Plot": "An oddball couple of private detectives named Luella Shakespeare and Frank Hathaway investigate crime in Stratford-upon-Avon.",
+    "Language": "English",
+    "Country": "United Kingdom",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTkyNjhiMDctM2E3Ni00ZGE4LTk2Y2QtMTNmODA5YTIyZDk5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.6",
+    "imdbVotes": "7,532",
+    "imdbID": "tt7526498",
+    "Type": "series",
+    "totalSeasons": "4",
+    "Response": "True"
+  },
+  "tt35515227": {
+    "Title": "CIA",
+    "Year": "2026–",
+    "Rated": "N/A",
+    "Released": "23 Feb 2026",
+    "Runtime": "N/A",
+    "Genre": "Action, Adventure, Crime",
+    "Director": "N/A",
+    "Writer": "Dick Wolf",
+    "Actors": "Tom Ellis, Nick Gehlfuss, Natalee Linez",
+    "Plot": "Follows a partnership between an FBI agent and a CIA Case Officer who work together on a clandestine taskforce to prevent domestic terrorism in New York.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzZjNjRmODktMDZjOC00MzcwLWI4N2ItYTI5OWY1YTI2ZGZlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "24",
+    "imdbID": "tt35515227",
+    "Type": "series",
+    "totalSeasons": "1",
+    "Response": "True"
   }
 }
