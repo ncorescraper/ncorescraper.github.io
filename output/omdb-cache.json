@@ -16113,5 +16113,34 @@
     "Production": "N/A",
     "Website": "N/A",
     "Response": "True"
+  },
+  "tt15387926": {
+    "Title": "Dora",
+    "Year": "2024–",
+    "Rated": "TV-Y",
+    "Released": "12 Apr 2024",
+    "Runtime": "N/A",
+    "Genre": "Animation, Adventure, Comedy",
+    "Director": "N/A",
+    "Writer": "Chris Gifford, Valerie Walsh Valdes",
+    "Actors": "Diana Zermeño, Asher Colton Spence, Anairis Quinones",
+    "Plot": "Dora has amazing adventures with old and new friends as she journeys through the crazy but wonderful Rainforest with her best friend, Boots, by her side.",
+    "Language": "English, Spanish",
+    "Country": "Canada, United States",
+    "Awards": "2 wins & 3 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODRhNjUyZGQtN2ExZi00Njg5LTlhMmQtNDFlZDIzMDg2ZWYxXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "3.8/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "3.8",
+    "imdbVotes": "233",
+    "imdbID": "tt15387926",
+    "Type": "series",
+    "totalSeasons": "3",
+    "Response": "True"
   }
 }
