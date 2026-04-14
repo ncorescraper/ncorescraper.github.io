@@ -16370,5 +16370,130 @@
     "Type": "series",
     "totalSeasons": "73",
     "Response": "True"
+  },
+  "tt32909479": {
+    "Title": "Dorothea",
+    "Year": "2025",
+    "Rated": "N/A",
+    "Released": "04 Nov 2025",
+    "Runtime": "N/A",
+    "Genre": "Crime",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "N/A",
+    "Plot": "A twisted true crime nightmare where serial killer granny Dorothea Puente lures the vulnerable, kills without remorse, and buries secrets in her garden. Evil wears a smile. You'll never trust kindness again.",
+    "Language": "N/A",
+    "Country": "United States",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMzRlYjRkYWItMjIxZC00MWVmLWFjNjEtMzliNWRkMGNkMjA5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt32909479",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt28633405": {
+    "Title": "Gazer",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "23 Apr 2025",
+    "Runtime": "114 min",
+    "Genre": "Mystery, Thriller",
+    "Director": "Ryan J. Sloan",
+    "Writer": "Ariella Mastroianni, Ryan J. Sloan",
+    "Actors": "Ariella Mastroianni, Renee Gagner, Jack Alberts",
+    "Plot": "Frankie, a young mother with dyschronometria, struggles to perceive time. Using cassette tapes for guidance, she takes a risky job from a mysterious woman to support her family, unaware of the dark consequences that await.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 win & 8 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMjVjNTJlYWItNWNhMy00YjM0LWJkNzktNzRhY2MyM2E3MjA4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "71/100"
+      }
+    ],
+    "Metascore": "71",
+    "imdbRating": "5.6",
+    "imdbVotes": "437",
+    "imdbID": "tt28633405",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$38,156",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  },
+  "tt3121722": {
+    "Title": "PAW Patrol",
+    "Year": "2013–",
+    "Rated": "TV-Y",
+    "Released": "14 Nov 2013",
+    "Runtime": "23 min",
+    "Genre": "Animation, Adventure, Comedy",
+    "Director": "N/A",
+    "Writer": "Keith Chapman, Scott Kraft",
+    "Actors": "Ron Pardo, Justin Paul Kelly, Kallan Holley",
+    "Plot": "Led by a boy named Ryder, a team of six playful rescue dogs use their individual talents to protect the seaside town of Adventure Bay.",
+    "Language": "English",
+    "Country": "United States, Canada",
+    "Awards": "51 wins & 42 nominations total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODg0NDY1MjktMzA5MS00OGQ2LTliMWItZTdmZjNlYzQ2MWM1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.1/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.1",
+    "imdbVotes": "7,795",
+    "imdbID": "tt3121722",
+    "Type": "series",
+    "totalSeasons": "12",
+    "Response": "True"
+  },
+  "tt2580046": {
+    "Title": "Miraculous: Tales of Ladybug & Cat Noir",
+    "Year": "2015–",
+    "Rated": "TV-Y7",
+    "Released": "20 Dec 2015",
+    "Runtime": "1 min",
+    "Genre": "Animation, Action, Adventure",
+    "Director": "N/A",
+    "Writer": "N/A",
+    "Actors": "Anouck Hautbois, Cristina Valenzuela, Bryce Papenbrook",
+    "Plot": "Marinette and Adrien, two normal teens, transform into the superheroes Ladybug and Cat Noir when a mysterious evil threatens to destroy Paris.",
+    "Language": "French, Korean, English",
+    "Country": "France, South Korea, Japan, United States, Brazil, Canada, Italy",
+    "Awards": "2 wins & 1 nomination total",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODQ5NGFjZTQtNDkzNy00YWVjLWJiNGMtNTk1YzVmMmQ1YWQwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "19,232",
+    "imdbID": "tt2580046",
+    "Type": "series",
+    "totalSeasons": "7",
+    "Response": "True"
   }
 }
